@@ -223,8 +223,8 @@ artifacts directly; plot directories contain no helper data files.
 
 ## Installation
 
-Python 3.12 environments are provided for Linux/CPU (`environment.yml`), CUDA
-(`environment-cuda.yml`), and macOS (`environment-mac.yml`).
+Python 3.12 environments are provided for Linux/CPU (`environment.yml`) and Linux with CUDA
+(`environment-cuda.yml`).
 
 ADORE is an external prerequisite and should not be redistributed with a public copy
 of this repository. Obtain it through the
