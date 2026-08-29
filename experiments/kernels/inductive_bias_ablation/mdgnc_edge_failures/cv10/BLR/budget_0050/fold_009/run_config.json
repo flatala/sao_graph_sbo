@@ -1,0 +1,23 @@
+{
+  "status": "completed",
+  "experiment_alias": "inductive_bias_ablation",
+  "problem": "mdgnc_edge_failures",
+  "surrogate": "BLR",
+  "surrogate_kind": "blr_activeness",
+  "n_samples": 5000,
+  "n_folds": 10,
+  "fold": 9,
+  "budget": 50,
+  "params": {
+    "surrogate_kind": "blr_activeness"
+  },
+  "problem_config": {
+    "n_samples": 5000,
+    "evaluator_parallelism": 1,
+    "target_columns": [
+      "f0",
+      "f1"
+    ],
+    "train_selection": "unique_discrete_coverage_v1"
+  }
+}

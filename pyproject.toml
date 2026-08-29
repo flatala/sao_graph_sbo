@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=80"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graph-based-sao"
+version = "0.1.0"
+description = "Graph-based surrogate-assisted optimization for hierarchical architecture design"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+notebooks = [
+    "jupyter",
+    "ipykernel",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["graph_bo*", "experimenter*"]

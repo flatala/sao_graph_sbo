@@ -1,0 +1,31 @@
+{
+  "status": "completed",
+  "experiment_alias": "inductive_bias_ablation",
+  "problem": "mdgnc_edge_failures",
+  "surrogate": "ESP + EW",
+  "surrogate_kind": "adsg_esp_semantic_type_imputed_interaction",
+  "n_samples": 5000,
+  "n_folds": 10,
+  "fold": 2,
+  "budget": 175,
+  "params": {
+    "surrogate_kind": "adsg_esp_semantic_type_imputed_interaction",
+    "sigma0": 1.0,
+    "directed": true,
+    "encoding_level": "semantic_type",
+    "composition": "additive_interaction",
+    "sizing_kernel_mode": "imputed",
+    "lambda_l2": 0.0,
+    "pow_exp_power": 1.9,
+    "edge_weight": true
+  },
+  "problem_config": {
+    "n_samples": 5000,
+    "evaluator_parallelism": 1,
+    "target_columns": [
+      "f0",
+      "f1"
+    ],
+    "train_selection": "unique_discrete_coverage_v1"
+  }
+}

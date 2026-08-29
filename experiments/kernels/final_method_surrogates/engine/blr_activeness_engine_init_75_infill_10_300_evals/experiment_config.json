@@ -1,0 +1,57 @@
+{
+  "algorithm": {
+    "class": "InfillAlgorithm"
+  },
+  "created_at": "2026-06-26T09:04:49.721009+00:00",
+  "problem": {
+    "class": "AdoreArchOptProblem"
+  },
+  "runner": {
+    "aggregate_results_path": "aggregate_results.csv",
+    "base_seed": 2000,
+    "copy_algorithm": true,
+    "n_runs": 40
+  },
+  "surrogate": {
+    "class": "BayesianLinearSurrogate",
+    "feature_map": "[1, x, is_acting]",
+    "n_outputs": 6,
+    "output_names": [
+      "tsfc",
+      "jet-mach",
+      "pr",
+      "pr",
+      "pr",
+      "pr-perc-sum"
+    ]
+  },
+  "user_metadata": {
+    "algorithm_kind": "surrogate_bo",
+    "batch_size": 10,
+    "config_index": 11,
+    "config_name": "blr_activeness_engine_init_75_infill_10_300_evals",
+    "evaluator_parallelism": 1,
+    "experiment_module": "experiments/kernels/final_method_surrogates.py",
+    "kpls_n_dim": null,
+    "max_evals": 300,
+    "method": "blr_activeness",
+    "n_init": 75,
+    "params": {
+      "algorithm_kind": "surrogate_bo",
+      "batch_size": 10,
+      "n_init": 75,
+      "surrogate_name": "blr_activeness",
+      "surrogate_params": {}
+    },
+    "problem": "engine",
+    "problem_config": {
+      "bo_batch_size": 10,
+      "bo_n_init": 75,
+      "evaluator_parallelism": 1,
+      "max_evals": 300,
+      "reference_dir": "/dss/dsshome1/03/di54vox/ondemand/data/sys/myjobs/projects/graph_surrogates/msc-thesis/resources/reference_fronts/engine"
+    },
+    "surrogate_name": "blr_activeness",
+    "surrogate_params": {}
+  }
+}

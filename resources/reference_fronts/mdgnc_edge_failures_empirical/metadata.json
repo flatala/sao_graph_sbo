@@ -1,0 +1,108 @@
+{
+  "created_at": "2026-08-01T10:07:38.718048+00:00",
+  "generation": {
+    "method": "nondominated_union_of_original_reference_and_final_method_runs",
+    "original_reference": "resources/reference_fronts/mdgnc_edge_failures",
+    "sources": [
+      {
+        "method": "Random search",
+        "experiment_dir": "experiments/kernels/final_method_baselines/mdgnc_edge_failures/random_mdgnc_edge_failures_init_30_pop_10_250_evals",
+        "n_runs": 40,
+        "n_final_optimum_points": 836
+      },
+      {
+        "method": "GA",
+        "experiment_dir": "experiments/kernels/final_method_baselines/mdgnc_edge_failures/ga_mdgnc_edge_failures_init_30_pop_10_250_evals",
+        "n_runs": 40,
+        "n_final_optimum_points": 1037
+      },
+      {
+        "method": "Hierarchical BO",
+        "experiment_dir": "experiments/kernels/final_method_surrogates/mdgnc_edge_failures/bo_no_kpls_mdgnc_edge_failures_init_30_infill_10_250_evals",
+        "n_runs": 40,
+        "n_final_optimum_points": 1670
+      },
+      {
+        "method": "BO-KPLS",
+        "experiment_dir": "experiments/kernels/final_method_surrogates/mdgnc_edge_failures/bo_kpls_mdgnc_edge_failures_init_30_infill_10_250_evals",
+        "n_runs": 40,
+        "n_final_optimum_points": 1488
+      },
+      {
+        "method": "BLR",
+        "experiment_dir": "experiments/kernels/final_method_surrogates/mdgnc_edge_failures/blr_activeness_mdgnc_edge_failures_init_30_infill_10_250_evals",
+        "n_runs": 40,
+        "n_final_optimum_points": 1403
+      },
+      {
+        "method": "ESP",
+        "experiment_dir": "experiments/kernels/final_method_surrogates/mdgnc_edge_failures/adsg_esp_semantic_type_edge_weight_imputed_interaction_mdgnc_edge_failures_init_30_infill_10_250_evals",
+        "n_runs": 40,
+        "n_final_optimum_points": 2002
+      },
+      {
+        "method": "Arch2Vec",
+        "experiment_dir": "experiments/gnn/final_method_arch2vec_bo/mdgnc_edge_failures/gnn_dngo_node_d5_b0p0025_z32_e050_mdgnc_edge_failures_init_30_pop_10_250_evals",
+        "n_runs": 40,
+        "n_final_optimum_points": 1298
+      },
+      {
+        "method": "DGBO",
+        "experiment_dir": "experiments/gnn/final_method_dgbo/mdgnc_edge_failures/dgbo_mdgnc_edge_failures_init_30_pop_10_250_evals",
+        "n_runs": 40,
+        "n_final_optimum_points": 1756
+      },
+      {
+        "method": "MG LD-WLOA",
+        "experiment_dir": "experiments/kernels/final_method_surrogates/mdgnc_edge_failures/adsg_mg_ld_wloa_adsg_semantic_type_d8_edge_weight_imputed_interaction_mdgnc_edge_failures_init_30_infill_10_250_evals",
+        "n_runs": 40,
+        "n_final_optimum_points": 2084
+      }
+    ],
+    "n_runs": 360
+  },
+  "problem": {
+    "name": "mdgnc_edge_failures",
+    "n_obj": 2
+  },
+  "metric": {
+    "normalization_ideal": [
+      -11.7671790217879,
+      11.529455943017751
+    ],
+    "normalization_nadir": [
+      -3.2763231279207825,
+      69.64225041352896
+    ],
+    "reference_point": [
+      -3.2763231279207825,
+      69.64225041352896
+    ],
+    "original_hv": 0.606242745548614,
+    "empirical_hv": 0.6705701795726954,
+    "recalculated_columns": [
+      "delta_hv.delta_hv",
+      "delta_hv.hv",
+      "delta_hv.true_hv",
+      "delta_hv.ratio",
+      "delta_hv.regret",
+      "delta_hv.abs_regret"
+    ],
+    "legacy_igd_column": "IGD.reference_mdgnc_edge_failures"
+  },
+  "reference_front": {
+    "n_points": 717,
+    "pf_shape": [
+      717,
+      2
+    ],
+    "ideal": [
+      -12.10625351279569,
+      11.5
+    ],
+    "nadir": [
+      -3.276635086584403,
+      90.47626916959172
+    ]
+  }
+}

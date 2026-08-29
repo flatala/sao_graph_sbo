@@ -1,0 +1,37 @@
+{
+  "experiment_alias": "encoder_epoch_training",
+  "problem": "engine",
+  "setup": "node_d3_b0_z32",
+  "seed": 61,
+  "n_samples": 5000,
+  "source": "resample",
+  "sample_seconds": 39.16853774899937,
+  "device": "cuda",
+  "feature_extractor": "node",
+  "model": {
+    "input_dim": 35,
+    "hidden_dim": 64,
+    "latent_dim": 32,
+    "n_gin_layers": 3,
+    "norm": "batch",
+    "adj_decoder": "mlp"
+  },
+  "training": {
+    "batch_size": 64,
+    "n_epochs": 150,
+    "lr": 0.001,
+    "beta": 0.0,
+    "adj_cutoff": 0.3,
+    "selection_window": 5,
+    "val_fraction": 0.1,
+    "snapshot_epochs": [
+      0,
+      10,
+      25,
+      50,
+      100,
+      150
+    ]
+  },
+  "pretrain_seconds": 432.04413140700126
+}

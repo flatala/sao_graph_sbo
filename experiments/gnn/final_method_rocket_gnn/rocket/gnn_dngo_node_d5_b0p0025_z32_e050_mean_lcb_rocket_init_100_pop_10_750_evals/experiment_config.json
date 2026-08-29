@@ -1,0 +1,120 @@
+{
+  "algorithm": {
+    "class": "InfillAlgorithm"
+  },
+  "created_at": "2026-07-22T22:10:08.070725+00:00",
+  "problem": {
+    "class": "AdoreArchOptProblem"
+  },
+  "runner": {
+    "aggregate_results_path": "aggregate_results.csv",
+    "base_seed": 2000,
+    "copy_algorithm": true,
+    "n_runs": 40
+  },
+  "surrogate": {
+    "class": "GNNMultiSurrogate",
+    "downstream": {
+      "batch_size": 10,
+      "blr": null,
+      "calibrate_folds": 0,
+      "calibrate_stat": "mean_sq",
+      "calibration_scale": 1.0,
+      "class": "DNGO",
+      "hidden_units": 128,
+      "hypers": "optimize",
+      "include_bias": false,
+      "lr": 0.01,
+      "n_epochs": 10,
+      "normalize_x": true,
+      "normalize_y": false,
+      "seed": "<run_seed>"
+    },
+    "embedder": {
+      "adj_cutoff": 0.3,
+      "adj_decoder": "mlp",
+      "batch_size": 64,
+      "beta": 0.0025,
+      "class": "Arch2VecEmbedder",
+      "dataset_path": null,
+      "device": "cuda",
+      "embedding_batch_size": 256,
+      "embedding_dim": 32,
+      "feature_extractor_cls": "ADSGNodeFeatureExtractor",
+      "hidden_dim": 64,
+      "latent_dim": 32,
+      "lr": 0.001,
+      "model_path": "/dss/dsshome1/03/di54vox/ondemand/data/sys/myjobs/projects/graph_surrogates/msc-thesis/experiments/gnn/final_method_arch2vec_encoders/rocket/node_d5_b0p0025_z32/seed_<run_seed>/epoch_050.pt",
+      "n_epochs": 50,
+      "n_gin_layers": 5,
+      "n_samples": null,
+      "norm": "batch",
+      "seed": "<run_seed>",
+      "selection_window": 5,
+      "show_progress": false,
+      "tensor": {
+        "feature_dim": 32,
+        "n_nodes": 199
+      },
+      "val_fraction": 0.1
+    },
+    "head": null,
+    "n_outputs": 5,
+    "output_names": [
+      "f0_cost",
+      "f1_payload_mass",
+      "g0_delta_delta_v",
+      "g1_structural_constraint",
+      "g2_volume_constraint"
+    ],
+    "reconstruction_adj_cutoff": 0.3
+  },
+  "user_metadata": {
+    "algorithm_kind": "bo_gnn_dngo",
+    "batch_size": 10,
+    "config_index": 1,
+    "config_name": "gnn_dngo_node_d5_b0p0025_z32_e050_mean_lcb_rocket_init_100_pop_10_750_evals",
+    "evaluator_parallelism": 1,
+    "experiment_module": "experiments/gnn/final_method_rocket_gnn.py",
+    "kpls_n_dim": null,
+    "max_evals": 750,
+    "method": "gnn_dngo_node_d5_b0p0025_z32_e050_mean_lcb",
+    "n_init": 100,
+    "params": {
+      "algorithm_kind": "bo_gnn_dngo",
+      "batch_size": 10,
+      "encoder_adj_cutoff": 0.3,
+      "encoder_adj_decoder": "mlp",
+      "encoder_batch_size": 64,
+      "encoder_beta": 0.0025,
+      "encoder_depth": 5,
+      "encoder_epoch": 50,
+      "encoder_hidden_dim": 64,
+      "encoder_latent_dim": 32,
+      "encoder_lr": 0.001,
+      "encoder_norm": "batch",
+      "encoder_results_root": "/dss/dsshome1/03/di54vox/ondemand/data/sys/myjobs/projects/graph_surrogates/msc-thesis/experiments/gnn/final_method_arch2vec_encoders",
+      "encoder_selection_window": 5,
+      "encoder_setup": "node_d5_b0p0025_z32",
+      "encoder_val_fraction": 0.1,
+      "head_batch_size": 10,
+      "head_calibrate_folds": 0,
+      "head_hidden_units": 128,
+      "head_lr": 0.01,
+      "head_n_epochs": 10,
+      "infill_kind": "mean_lcb",
+      "n_init": 100,
+      "reconstruction_adj_cutoff": 0.3
+    },
+    "problem": "rocket",
+    "problem_config": {
+      "bo_batch_size": 10,
+      "bo_n_init": 100,
+      "evaluator_parallelism": 1,
+      "max_evals": 750,
+      "reference_dir": "/dss/dsshome1/03/di54vox/ondemand/data/sys/myjobs/projects/graph_surrogates/msc-thesis/resources/reference_fronts/rocket"
+    },
+    "surrogate_name": null,
+    "surrogate_params": {}
+  }
+}

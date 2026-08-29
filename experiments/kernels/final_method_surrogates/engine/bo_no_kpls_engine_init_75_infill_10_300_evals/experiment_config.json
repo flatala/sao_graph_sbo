@@ -1,0 +1,46 @@
+{
+  "algorithm": {
+    "class": "InfillAlgorithm"
+  },
+  "created_at": "2026-05-29T23:44:24.132897+00:00",
+  "problem": {
+    "class": "AdoreArchOptProblem"
+  },
+  "runner": {
+    "aggregate_results_path": "aggregate_results.csv",
+    "base_seed": 2000,
+    "copy_algorithm": true,
+    "n_runs": 40
+  },
+  "surrogate": {
+    "class": "MultiSurrogateModel"
+  },
+  "user_metadata": {
+    "algorithm_kind": "bo_no_kpls",
+    "batch_size": 10,
+    "config_index": 7,
+    "config_name": "bo_no_kpls_engine_init_75_infill_10_300_evals",
+    "evaluator_parallelism": 1,
+    "experiment_module": "experiments/kernels/final_method_surrogates.py",
+    "kpls_n_dim": null,
+    "max_evals": 300,
+    "method": "bo_no_kpls",
+    "n_init": 75,
+    "params": {
+      "algorithm_kind": "bo_no_kpls",
+      "batch_size": 10,
+      "kpls_n_dim": null,
+      "n_init": 75
+    },
+    "problem": "engine",
+    "problem_config": {
+      "bo_batch_size": 10,
+      "bo_n_init": 75,
+      "evaluator_parallelism": 1,
+      "max_evals": 300,
+      "reference_dir": "/dss/dsshome1/03/di54vox/ondemand/data/sys/myjobs/projects/graph_surrogates/msc-thesis/resources/reference_fronts/engine"
+    },
+    "surrogate_name": null,
+    "surrogate_params": {}
+  }
+}

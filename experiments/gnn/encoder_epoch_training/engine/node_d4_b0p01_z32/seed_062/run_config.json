@@ -1,0 +1,39 @@
+{
+  "status": "completed",
+  "experiment_alias": "encoder_epoch_training",
+  "problem": "engine",
+  "setup": "node_d4_b0p01_z32",
+  "params": {
+    "feature_extractor": "node",
+    "hidden_dim": 64,
+    "latent_dim": 32,
+    "n_gin_layers": 4,
+    "batch_size": 64,
+    "n_epochs": 150,
+    "lr": 0.001,
+    "beta": 0.01,
+    "adj_cutoff": 0.3,
+    "selection_window": 5,
+    "norm": "batch",
+    "adj_decoder": "mlp",
+    "val_fraction": 0.1,
+    "source": "resample",
+    "snapshot_epochs": [
+      0,
+      10,
+      25,
+      50,
+      100,
+      150
+    ],
+    "torch_threads": 1
+  },
+  "problem_config": {
+    "n_samples": 5000
+  },
+  "n_samples": 5000,
+  "n_folds": 1,
+  "val_fold": 0,
+  "test_fold": 0,
+  "seed": 62
+}

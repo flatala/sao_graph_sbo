@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-04-27T15:26:34.117423+00:00",
+  "generation": {
+    "kwargs": {
+      "base_seed": 42,
+      "conn_mass_penalty": 1.0,
+      "edge_failure_prob": 0.0001,
+      "n_gen": 60,
+      "n_repeat": 5,
+      "pop_size": 100
+    },
+    "method": "repeated_nsga2"
+  },
+  "problem": {
+    "class": "AdoreArchOptProblem",
+    "n_obj": 2,
+    "n_var": 24,
+    "repr": "AdoreArchOptProblem(<experimenter.problems.mdgnc_edge_failures.MDGNCEdgeFailuresEvaluator object at 0x152ace570>)"
+  },
+  "reference_front": {
+    "hv_true": 0.606242745548614,
+    "ideal": [
+      -11.7671790217879,
+      11.529455943017751
+    ],
+    "n_obj": 2,
+    "n_points": 173,
+    "nadir": [
+      -3.2763231279207825,
+      69.64225041352896
+    ],
+    "pf_shape": [
+      173,
+      2
+    ]
+  }
+}

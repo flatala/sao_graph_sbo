@@ -1,0 +1,102 @@
+{
+  "algorithm": {
+    "class": "InfillAlgorithm"
+  },
+  "created_at": "2026-06-15T11:55:28.188058+00:00",
+  "problem": {
+    "class": "AdoreArchOptProblem"
+  },
+  "runner": {
+    "aggregate_results_path": "aggregate_results.csv",
+    "base_seed": 2000,
+    "copy_algorithm": true,
+    "n_runs": 40
+  },
+  "surrogate": {
+    "class": "MultiSurrogateModel"
+  },
+  "user_metadata": {
+    "algorithm_kind": "bo_no_kpls",
+    "batch_size": 10,
+    "config_index": 9,
+    "config_name": "bo_no_kpls_mdgnc_edge_failures_init_30_infill_10_250_evals",
+    "encoding": {
+      "connection_encoders": {
+        "D[Conn: port_COMMAND]": {
+          "assignment_manager": "AssignmentManager",
+          "design_variable_options": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            4,
+            4,
+            4
+          ],
+          "encoder": "ElementGroupedEncoder"
+        },
+        "D[Conn: port_DATA]": {
+          "assignment_manager": "LazyAssignmentManager",
+          "design_variable_options": [
+            52,
+            52,
+            52
+          ],
+          "encoder": "LazyConnIdxMatrixEncoder"
+        }
+      },
+      "design_variables": [
+        "DV: comp_instance_ACTUATOR [3 opts, ord]",
+        "DV: comp_instance_COMPUTER [3 opts, ord]",
+        "DV: comp_instance_SENSOR [3 opts, ord]",
+        "DV: port_COMMAND_0 [5 opts]",
+        "DV: port_COMMAND_1 [5 opts]",
+        "DV: port_COMMAND_2 [5 opts]",
+        "DV: port_COMMAND_3 [5 opts]",
+        "DV: port_COMMAND_4 [5 opts]",
+        "DV: port_COMMAND_5 [5 opts]",
+        "DV: port_COMMAND_6 [4 opts]",
+        "DV: port_COMMAND_7 [4 opts]",
+        "DV: port_COMMAND_8 [4 opts]",
+        "DV: port_DATA_0 [52 opts]",
+        "DV: port_DATA_1 [52 opts]",
+        "DV: port_DATA_2 [52 opts]",
+        "DV: QOIS_SIZING_PARAMETER_0 [0.00..1.00]",
+        "DV: QOIS_SIZING_PARAMETER_1 [0.00..1.00]",
+        "DV: QOIS_SIZING_PARAMETER_2 [0.00..1.00]",
+        "DV: QOIS_SIZING_PARAMETER_2_0 [0.00..1.00]",
+        "DV: QOIS_SIZING_PARAMETER_2_1 [0.00..1.00]",
+        "DV: QOIS_SIZING_PARAMETER_2_2 [0.00..1.00]",
+        "DV: SIZING_PARAMETER_0 [0.00..1.00]",
+        "DV: SIZING_PARAMETER_1 [0.00..1.00]",
+        "DV: SIZING_PARAMETER_2 [0.00..1.00]"
+      ],
+      "encoder_type": "SelChoiceEncoderType.COMPLETE",
+      "n_var": 24
+    },
+    "evaluator_parallelism": 1,
+    "experiment_module": "experiments/kernels/final_method_surrogates.py",
+    "kpls_n_dim": null,
+    "max_evals": 250,
+    "method": "bo_no_kpls",
+    "n_init": 30,
+    "params": {
+      "algorithm_kind": "bo_no_kpls",
+      "batch_size": 10,
+      "kpls_n_dim": null,
+      "n_init": 30
+    },
+    "problem": "mdgnc_edge_failures",
+    "problem_config": {
+      "bo_batch_size": 10,
+      "bo_n_init": 30,
+      "evaluator_parallelism": 1,
+      "max_evals": 250,
+      "reference_dir": "/dss/dsshome1/03/di54vox/ondemand/data/sys/myjobs/projects/graph_surrogates/msc-thesis/resources/reference_fronts/mdgnc_edge_failures"
+    },
+    "surrogate_name": null,
+    "surrogate_params": {}
+  }
+}

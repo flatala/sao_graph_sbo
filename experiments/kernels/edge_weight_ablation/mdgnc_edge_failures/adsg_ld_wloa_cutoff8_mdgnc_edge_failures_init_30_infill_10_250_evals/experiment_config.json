@@ -1,0 +1,157 @@
+{
+  "algorithm": {
+    "class": "InfillAlgorithm"
+  },
+  "created_at": "2026-05-26T14:34:12.314953+00:00",
+  "problem": {
+    "class": "AdoreArchOptProblem"
+  },
+  "runner": {
+    "aggregate_results_path": "aggregate_results.csv",
+    "base_seed": 52,
+    "copy_algorithm": true,
+    "n_runs": 20
+  },
+  "surrogate": {
+    "base_surrogate": {
+      "class": "ADSGKriging",
+      "composition": "additive",
+      "enable_timing": false,
+      "hyper_opt": "Cobyla",
+      "lambda_l2": 0.0,
+      "sizing_kernel": {
+        "class": "SizingKernel",
+        "hierarchical_kernel": "MixHrcKernelType.ALG_KERNEL",
+        "n_attribute_choice_variables": 0,
+        "n_sizing_variables": 9,
+        "power": 1.9,
+        "sizing_variable_keys": [
+          "QOIS_SIZING_PARAMETER_0",
+          "QOIS_SIZING_PARAMETER_1",
+          "QOIS_SIZING_PARAMETER_2",
+          "QOIS_SIZING_PARAMETER_2_0",
+          "QOIS_SIZING_PARAMETER_2_1",
+          "QOIS_SIZING_PARAMETER_2_2",
+          "SIZING_PARAMETER_0",
+          "SIZING_PARAMETER_1",
+          "SIZING_PARAMETER_2"
+        ]
+      },
+      "structure_kernels": [
+        {
+          "class": "GraphKernelHandler",
+          "kernel": {
+            "class": "LdWloa",
+            "cutoff": 8,
+            "kernel": "ld_wloa_histogram_intersection",
+            "theta_count": 9
+          },
+          "name": "ld_wloa",
+          "theta_count": 9
+        }
+      ],
+      "theta0": [
+        0.01
+      ],
+      "theta_bounds": [
+        1e-06,
+        20.0
+      ],
+      "use_branch_theta0": true
+    },
+    "class": "LoggedMultiSurrogateModel",
+    "output_names": [
+      "f0_failure_rate",
+      "f1_mass"
+    ]
+  },
+  "user_metadata": {
+    "algorithm_kind": "surrogate_bo",
+    "batch_size": 10,
+    "config_index": 3,
+    "config_name": "adsg_ld_wloa_cutoff8_mdgnc_edge_failures_init_30_infill_10_250_evals",
+    "encoding": {
+      "connection_encoders": {
+        "D[Conn: port_COMMAND]": {
+          "assignment_manager": "AssignmentManager",
+          "design_variable_options": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            4,
+            4,
+            4
+          ],
+          "encoder": "ElementGroupedEncoder"
+        },
+        "D[Conn: port_DATA]": {
+          "assignment_manager": "LazyAssignmentManager",
+          "design_variable_options": [
+            52,
+            52,
+            52
+          ],
+          "encoder": "LazyConnIdxMatrixEncoder"
+        }
+      },
+      "design_variables": [
+        "DV: comp_instance_ACTUATOR [3 opts, ord]",
+        "DV: comp_instance_COMPUTER [3 opts, ord]",
+        "DV: comp_instance_SENSOR [3 opts, ord]",
+        "DV: port_COMMAND_0 [5 opts]",
+        "DV: port_COMMAND_1 [5 opts]",
+        "DV: port_COMMAND_2 [5 opts]",
+        "DV: port_COMMAND_3 [5 opts]",
+        "DV: port_COMMAND_4 [5 opts]",
+        "DV: port_COMMAND_5 [5 opts]",
+        "DV: port_COMMAND_6 [4 opts]",
+        "DV: port_COMMAND_7 [4 opts]",
+        "DV: port_COMMAND_8 [4 opts]",
+        "DV: port_DATA_0 [52 opts]",
+        "DV: port_DATA_1 [52 opts]",
+        "DV: port_DATA_2 [52 opts]",
+        "DV: QOIS_SIZING_PARAMETER_0 [0.00..1.00]",
+        "DV: QOIS_SIZING_PARAMETER_1 [0.00..1.00]",
+        "DV: QOIS_SIZING_PARAMETER_2 [0.00..1.00]",
+        "DV: QOIS_SIZING_PARAMETER_2_0 [0.00..1.00]",
+        "DV: QOIS_SIZING_PARAMETER_2_1 [0.00..1.00]",
+        "DV: QOIS_SIZING_PARAMETER_2_2 [0.00..1.00]",
+        "DV: SIZING_PARAMETER_0 [0.00..1.00]",
+        "DV: SIZING_PARAMETER_1 [0.00..1.00]",
+        "DV: SIZING_PARAMETER_2 [0.00..1.00]"
+      ],
+      "encoder_type": "SelChoiceEncoderType.COMPLETE",
+      "n_var": 24
+    },
+    "evaluator_parallelism": 1,
+    "experiment_module": "experiments/kernels/edge_weight_ablation.py",
+    "kpls_n_dim": null,
+    "max_evals": 250,
+    "method": "adsg_ld_wloa",
+    "n_init": 30,
+    "params": {
+      "algorithm_kind": "surrogate_bo",
+      "batch_size": 10,
+      "n_init": 30,
+      "surrogate_name": "adsg_ld_wloa_cutoff8",
+      "surrogate_params": {
+        "cutoff": 8
+      }
+    },
+    "problem": "mdgnc_edge_failures",
+    "problem_config": {
+      "bo_batch_size": 10,
+      "bo_n_init": 30,
+      "evaluator_parallelism": 1,
+      "max_evals": 250,
+      "reference_dir": "/dss/dsshome1/03/di54vox/ondemand/data/sys/myjobs/projects/graph_surrogates/msc-thesis/resources/reference_fronts/mdgnc_edge_failures"
+    },
+    "surrogate_name": "adsg_ld_wloa_cutoff8",
+    "surrogate_params": {
+      "cutoff": 8
+    }
+  }
+}

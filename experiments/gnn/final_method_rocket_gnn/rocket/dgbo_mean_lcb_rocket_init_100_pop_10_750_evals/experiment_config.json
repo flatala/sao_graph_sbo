@@ -1,0 +1,107 @@
+{
+  "algorithm": {
+    "class": "InfillAlgorithm"
+  },
+  "created_at": "2026-07-22T17:21:01.473739+00:00",
+  "problem": {
+    "class": "AdoreArchOptProblem"
+  },
+  "runner": {
+    "aggregate_results_path": "aggregate_results.csv",
+    "base_seed": 2000,
+    "copy_algorithm": true,
+    "n_runs": 40
+  },
+  "surrogate": {
+    "batch_size": 10,
+    "blr_hypers": "marginalize",
+    "blr_normalize_x": true,
+    "blr_normalize_y": true,
+    "class": "DGBOSurrogate",
+    "device": "cuda",
+    "dropout": 0.0,
+    "fc_layers": 5,
+    "feature_dim": 45,
+    "feature_extractor_cls": "ADSGNodeFeatureExtractor",
+    "graph_hidden_dim": 48,
+    "graph_layers": 5,
+    "include_self_loops": true,
+    "lr": 0.001,
+    "model": null,
+    "n_epochs": 200,
+    "n_outputs": 5,
+    "output_names": [
+      "f0_cost",
+      "f1_payload_mass",
+      "g0_delta_delta_v",
+      "g1_structural_constraint",
+      "g2_volume_constraint"
+    ],
+    "pool_hidden_dim": 50,
+    "seed": "<run_seed>",
+    "tensor": {
+      "feature_dim": 32,
+      "n_nodes": 199
+    },
+    "weight_decay": 1e-05
+  },
+  "user_metadata": {
+    "algorithm_kind": "bo_dgbo",
+    "batch_size": 10,
+    "config_index": 0,
+    "config_name": "dgbo_mean_lcb_rocket_init_100_pop_10_750_evals",
+    "evaluator_parallelism": 1,
+    "experiment_module": "experiments/gnn/final_method_rocket_gnn.py",
+    "kpls_n_dim": null,
+    "max_evals": 750,
+    "method": "dgbo_mean_lcb",
+    "n_init": 100,
+    "params": {
+      "algorithm_kind": "bo_dgbo",
+      "batch_size": 10,
+      "infill_kind": "mean_lcb",
+      "n_init": 100,
+      "surrogate_params": {
+        "batch_size": 10,
+        "blr_hypers": "marginalize",
+        "blr_normalize_x": true,
+        "blr_normalize_y": true,
+        "dropout": 0.0,
+        "fc_layers": 5,
+        "feature_dim": 45,
+        "graph_hidden_dim": 48,
+        "graph_layers": 5,
+        "include_self_loops": true,
+        "lr": 0.001,
+        "n_epochs": 200,
+        "pool_hidden_dim": 50,
+        "weight_decay": 1e-05
+      }
+    },
+    "problem": "rocket",
+    "problem_config": {
+      "bo_batch_size": 10,
+      "bo_n_init": 100,
+      "evaluator_parallelism": 1,
+      "max_evals": 750,
+      "reference_dir": "/dss/dsshome1/03/di54vox/ondemand/data/sys/myjobs/projects/graph_surrogates/msc-thesis/resources/reference_fronts/rocket"
+    },
+    "surrogate_name": null,
+    "surrogate_params": {
+      "batch_size": 10,
+      "blr_hypers": "marginalize",
+      "blr_normalize_x": true,
+      "blr_normalize_y": true,
+      "dropout": 0.0,
+      "fc_layers": 5,
+      "feature_dim": 45,
+      "graph_hidden_dim": 48,
+      "graph_layers": 5,
+      "include_self_loops": true,
+      "lr": 0.001,
+      "n_epochs": 200,
+      "pool_hidden_dim": 50,
+      "weight_decay": 1e-05
+    }
+  }
+}

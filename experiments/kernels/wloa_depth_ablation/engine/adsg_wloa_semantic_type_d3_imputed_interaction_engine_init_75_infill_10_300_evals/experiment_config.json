@@ -1,0 +1,114 @@
+{
+  "algorithm": {
+    "class": "InfillAlgorithm"
+  },
+  "created_at": "2026-08-01T09:48:37.559510+00:00",
+  "problem": {
+    "class": "AdoreArchOptProblem"
+  },
+  "runner": {
+    "aggregate_results_path": "aggregate_results.csv",
+    "base_seed": 52,
+    "copy_algorithm": true,
+    "n_runs": 20
+  },
+  "surrogate": {
+    "base_surrogate": {
+      "class": "ADSGKriging",
+      "composition": "additive_interaction",
+      "enable_timing": false,
+      "hyper_opt": "Cobyla",
+      "lambda_l2": 0.0,
+      "sizing_kernel": {
+        "class": "SizingKernel",
+        "hierarchical_kernel": "MixHrcKernelType.ALG_KERNEL",
+        "mode": "imputed",
+        "n_attribute_choice_variables": 0,
+        "n_sizing_variables": 9,
+        "power": 1.9,
+        "sizing_variable_keys": [
+          "BPR_0",
+          "FPR_0",
+          "GEAR_RATIO_0",
+          "PR_PARAM_0",
+          "PR_PARAM_1",
+          "PR_PARAM_2",
+          "RPM_0",
+          "RPM_1",
+          "RPM_2"
+        ]
+      },
+      "structure_kernels": [
+        {
+          "class": "GraphKernelHandler",
+          "kernel": {
+            "class": "Wloa",
+            "depth": 3,
+            "kernel": "wloa_histogram_intersection",
+            "theta_count": 0
+          },
+          "name": "wloa_semantic_type",
+          "theta_count": 0
+        }
+      ],
+      "theta0": [
+        0.01
+      ],
+      "theta_bounds": [
+        1e-06,
+        20.0
+      ],
+      "use_branch_theta0": true
+    },
+    "class": "LoggedMultiSurrogateModel",
+    "output_names": [
+      "f0_tsfc",
+      "g0_jet_mach",
+      "g1_pr",
+      "g2_pr",
+      "g3_pr",
+      "g4_pr_perc_sum"
+    ]
+  },
+  "user_metadata": {
+    "algorithm_kind": "surrogate_bo",
+    "batch_size": 10,
+    "config_index": 8,
+    "config_name": "adsg_wloa_semantic_type_d3_imputed_interaction_engine_init_75_infill_10_300_evals",
+    "evaluator_parallelism": 1,
+    "experiment_module": "experiments/kernels/wloa_depth_ablation.py",
+    "kpls_n_dim": null,
+    "max_evals": 300,
+    "method": "fixed_depth_wloa",
+    "n_init": 75,
+    "params": {
+      "algorithm_kind": "surrogate_bo",
+      "batch_size": 10,
+      "n_init": 75,
+      "surrogate_name": "adsg_wloa_semantic_type_d3_imputed_interaction",
+      "surrogate_params": {
+        "composition": "additive_interaction",
+        "depth": 3,
+        "lambda_l2": 0.0,
+        "pow_exp_power": 1.9,
+        "sizing_kernel_mode": "imputed"
+      }
+    },
+    "problem": "engine",
+    "problem_config": {
+      "bo_batch_size": 10,
+      "bo_n_init": 75,
+      "evaluator_parallelism": 1,
+      "max_evals": 300,
+      "reference_dir": "/dss/dsshome1/03/di54vox/ondemand/data/sys/myjobs/projects/graph_surrogates/msc-thesis/resources/reference_fronts/engine"
+    },
+    "surrogate_name": "adsg_wloa_semantic_type_d3_imputed_interaction",
+    "surrogate_params": {
+      "composition": "additive_interaction",
+      "depth": 3,
+      "lambda_l2": 0.0,
+      "pow_exp_power": 1.9,
+      "sizing_kernel_mode": "imputed"
+    }
+  }
+}

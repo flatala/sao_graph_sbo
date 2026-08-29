@@ -1,0 +1,110 @@
+{
+  "algorithm": {
+    "class": "InfillAlgorithm"
+  },
+  "created_at": "2026-08-01T09:48:33.540635+00:00",
+  "problem": {
+    "class": "AdoreArchOptProblem"
+  },
+  "runner": {
+    "aggregate_results_path": "aggregate_results.csv",
+    "base_seed": 52,
+    "copy_algorithm": true,
+    "n_runs": 20
+  },
+  "surrogate": {
+    "base_surrogate": {
+      "class": "ADSGKriging",
+      "composition": "additive_interaction",
+      "enable_timing": false,
+      "hyper_opt": "Cobyla",
+      "lambda_l2": 0.0,
+      "sizing_kernel": {
+        "class": "SizingKernel",
+        "hierarchical_kernel": "MixHrcKernelType.ALG_KERNEL",
+        "mode": "imputed",
+        "n_attribute_choice_variables": 0,
+        "n_sizing_variables": 9,
+        "power": 1.9,
+        "sizing_variable_keys": [
+          "QOIS_SIZING_PARAMETER_0",
+          "QOIS_SIZING_PARAMETER_1",
+          "QOIS_SIZING_PARAMETER_2",
+          "QOIS_SIZING_PARAMETER_2_0",
+          "QOIS_SIZING_PARAMETER_2_1",
+          "QOIS_SIZING_PARAMETER_2_2",
+          "SIZING_PARAMETER_0",
+          "SIZING_PARAMETER_1",
+          "SIZING_PARAMETER_2"
+        ]
+      },
+      "structure_kernels": [
+        {
+          "class": "GraphKernelHandler",
+          "kernel": {
+            "class": "Wloa",
+            "depth": 5,
+            "kernel": "wloa_histogram_intersection",
+            "theta_count": 0
+          },
+          "name": "wloa_semantic_type",
+          "theta_count": 0
+        }
+      ],
+      "theta0": [
+        0.01
+      ],
+      "theta_bounds": [
+        1e-06,
+        20.0
+      ],
+      "use_branch_theta0": true
+    },
+    "class": "LoggedMultiSurrogateModel",
+    "output_names": [
+      "f0_failure_rate",
+      "f1_mass"
+    ]
+  },
+  "user_metadata": {
+    "algorithm_kind": "surrogate_bo",
+    "batch_size": 10,
+    "config_index": 2,
+    "config_name": "adsg_wloa_semantic_type_d5_imputed_interaction_mdgnc_init_30_infill_10_200_evals",
+    "evaluator_parallelism": 1,
+    "experiment_module": "experiments/kernels/wloa_depth_ablation.py",
+    "kpls_n_dim": null,
+    "max_evals": 200,
+    "method": "fixed_depth_wloa",
+    "n_init": 30,
+    "params": {
+      "algorithm_kind": "surrogate_bo",
+      "batch_size": 10,
+      "n_init": 30,
+      "surrogate_name": "adsg_wloa_semantic_type_d5_imputed_interaction",
+      "surrogate_params": {
+        "composition": "additive_interaction",
+        "depth": 5,
+        "lambda_l2": 0.0,
+        "pow_exp_power": 1.9,
+        "sizing_kernel_mode": "imputed"
+      }
+    },
+    "problem": "mdgnc",
+    "problem_config": {
+      "bo_batch_size": 10,
+      "bo_n_init": 30,
+      "evaluator_parallelism": 1,
+      "max_evals": 200,
+      "reference_dir": "/dss/dsshome1/03/di54vox/ondemand/data/sys/myjobs/projects/graph_surrogates/msc-thesis/resources/reference_fronts/mdgnc"
+    },
+    "surrogate_name": "adsg_wloa_semantic_type_d5_imputed_interaction",
+    "surrogate_params": {
+      "composition": "additive_interaction",
+      "depth": 5,
+      "lambda_l2": 0.0,
+      "pow_exp_power": 1.9,
+      "sizing_kernel_mode": "imputed"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "status": "completed",
+  "experiment_alias": "final_method_arch2vec_encoders",
+  "problem": "rocket",
+  "setup": "node_d5_b0p0025_z32",
+  "params": {
+    "feature_extractor": "node",
+    "hidden_dim": 64,
+    "latent_dim": 32,
+    "n_gin_layers": 5,
+    "batch_size": 64,
+    "n_epochs": 50,
+    "lr": 0.001,
+    "beta": 0.0025,
+    "adj_cutoff": 0.3,
+    "selection_window": 5,
+    "norm": "batch",
+    "adj_decoder": "mlp",
+    "val_fraction": 0.1,
+    "source": "resample",
+    "snapshot_epochs": [
+      0,
+      10,
+      50
+    ],
+    "torch_threads": 1
+  },
+  "problem_config": {
+    "n_samples": 5000
+  },
+  "n_samples": 5000,
+  "n_folds": 1,
+  "val_fold": 0,
+  "test_fold": 0,
+  "seed": 2026
+}

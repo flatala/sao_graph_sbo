@@ -1,0 +1,60 @@
+{
+  "experiment_notebook": "experiments/notebooks/dngo_head_calibration.ipynb",
+  "problem": "mdgnc",
+  "outcome": "f0",
+  "inputs": {
+    "dataset": "inputs/samples_5000.csv",
+    "dataset_metadata": "inputs/samples_5000_metadata.json",
+    "encoder_checkpoint": "inputs/encoder_best.pt"
+  },
+  "split": {
+    "n_train": [
+      50,
+      100,
+      200
+    ],
+    "test_size": 500,
+    "n_repeats": 5,
+    "base_seed": 42
+  },
+  "encoder": {
+    "latent_dim": 32,
+    "hidden_dim": 64,
+    "n_gin_layers": 5,
+    "norm": "batch",
+    "n_epochs": 10,
+    "batch_size": 64,
+    "lr": 0.001,
+    "beta": 0.0025,
+    "adj_cutoff": 0.5,
+    "selection_window": 5,
+    "val_fraction": 0.1,
+    "adj_decoder": "mlp"
+  },
+  "dngo_head": {
+    "epochs": [
+      1,
+      5,
+      10,
+      20,
+      30,
+      50,
+      75,
+      100,
+      150,
+      200
+    ],
+    "hidden_units": 128,
+    "batch_size": 10,
+    "lr": 0.01,
+    "normalize_x": true,
+    "normalize_y": false,
+    "include_bias": false,
+    "hypers": "optimize"
+  },
+  "random_feature_ensemble": {
+    "n_members": 5,
+    "hidden_units": 128,
+    "weighting": "evidence"
+  }
+}

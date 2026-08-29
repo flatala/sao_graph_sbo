@@ -1,0 +1,103 @@
+{
+  "algorithm": {
+    "class": "InfillAlgorithm"
+  },
+  "created_at": "2026-07-07T14:48:05.651361+00:00",
+  "problem": {
+    "class": "AdoreArchOptProblem"
+  },
+  "runner": {
+    "aggregate_results_path": "aggregate_results.csv",
+    "base_seed": 2000,
+    "copy_algorithm": true,
+    "n_runs": 40
+  },
+  "surrogate": {
+    "batch_size": 10,
+    "blr_hypers": "marginalize",
+    "blr_normalize_x": true,
+    "blr_normalize_y": true,
+    "class": "DGBOSurrogate",
+    "device": "cuda",
+    "dropout": 0.0,
+    "fc_layers": 5,
+    "feature_dim": 45,
+    "feature_extractor_cls": "ADSGNodeFeatureExtractor",
+    "graph_hidden_dim": 48,
+    "graph_layers": 5,
+    "include_self_loops": true,
+    "lr": 0.001,
+    "model": null,
+    "n_epochs": 200,
+    "n_outputs": 2,
+    "output_names": [
+      "f0_failure_rate",
+      "f1_mass"
+    ],
+    "pool_hidden_dim": 50,
+    "seed": "<run_seed>",
+    "tensor": {
+      "feature_dim": 22,
+      "n_nodes": 53
+    },
+    "weight_decay": 1e-05
+  },
+  "user_metadata": {
+    "algorithm_kind": "bo_dgbo",
+    "batch_size": 10,
+    "config_index": 0,
+    "config_name": "dgbo_mdgnc_init_30_pop_10_200_evals",
+    "evaluator_parallelism": 1,
+    "experiment_module": "experiments/gnn/final_method_dgbo.py",
+    "kpls_n_dim": null,
+    "max_evals": 200,
+    "method": "dgbo",
+    "n_init": 30,
+    "params": {
+      "algorithm_kind": "bo_dgbo",
+      "batch_size": 10,
+      "n_init": 30,
+      "surrogate_params": {
+        "batch_size": 10,
+        "blr_hypers": "marginalize",
+        "blr_normalize_x": true,
+        "blr_normalize_y": true,
+        "dropout": 0.0,
+        "fc_layers": 5,
+        "feature_dim": 45,
+        "graph_hidden_dim": 48,
+        "graph_layers": 5,
+        "include_self_loops": true,
+        "lr": 0.001,
+        "n_epochs": 200,
+        "pool_hidden_dim": 50,
+        "weight_decay": 1e-05
+      }
+    },
+    "problem": "mdgnc",
+    "problem_config": {
+      "bo_batch_size": 10,
+      "bo_n_init": 30,
+      "evaluator_parallelism": 1,
+      "max_evals": 200,
+      "reference_dir": "/dss/dsshome1/03/di54vox/ondemand/data/sys/myjobs/projects/graph_surrogates/msc-thesis/resources/reference_fronts/mdgnc"
+    },
+    "surrogate_name": null,
+    "surrogate_params": {
+      "batch_size": 10,
+      "blr_hypers": "marginalize",
+      "blr_normalize_x": true,
+      "blr_normalize_y": true,
+      "dropout": 0.0,
+      "fc_layers": 5,
+      "feature_dim": 45,
+      "graph_hidden_dim": 48,
+      "graph_layers": 5,
+      "include_self_loops": true,
+      "lr": 0.001,
+      "n_epochs": 200,
+      "pool_hidden_dim": 50,
+      "weight_decay": 1e-05
+    }
+  }
+}

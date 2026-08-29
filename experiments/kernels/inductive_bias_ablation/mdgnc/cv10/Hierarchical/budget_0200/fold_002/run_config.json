@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "experiment_alias": "inductive_bias_ablation",
+  "problem": "mdgnc",
+  "surrogate": "Hierarchical",
+  "surrogate_kind": "md_kriging",
+  "n_samples": 5000,
+  "n_folds": 10,
+  "fold": 2,
+  "budget": 200,
+  "params": {
+    "surrogate_kind": "md_kriging",
+    "kpls_n_comp": null
+  },
+  "problem_config": {
+    "n_samples": 5000,
+    "evaluator_parallelism": 1,
+    "target_columns": [
+      "f0",
+      "f1"
+    ],
+    "train_selection": "unique_discrete_coverage_v1"
+  }
+}

@@ -1,0 +1,425 @@
+
+### ADSGKriging OPTIMIZED THETA | output=0, output_name=f0_failure_rate, n_train=30 | composition=additive_interaction
+  branch_weights : [0.009084489729852215, 0.13183076683346195, 0.46284418161696095, 0.3241629484521385, 0.011958294343267251, 0.06011931902431917]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.9843422144371616, 0.9458468386812728, -3.475425213720165e-18, -2.7578507547726666e-18, -3.5890888681023176e-18, 0.16611189322881662, -3.998763833611704e-18, -3.697857952533042e-18, -3.726569474599277e-18, -4.940115649458991e-18]
+  graph_1:edge_weight: [1.8043006601013762e-05]
+  sizing          : [0.001068771068935246, 0.0002032910881078614, 7.239988342440556e-06, 1.9842546984392713e-06, 1.1283713953053242e-06, 0.0011350354410827228, 0.001431945789469097, 0.0014683754764933706, 0.11264359975619023]
+
+### ADSGKriging OPTIMIZED THETA | output=1, output_name=f1_mass, n_train=30 | composition=additive_interaction
+  branch_weights : [0.00874254499917454, 0.13695485510222072, 0.4586712631161489, 0.31617601731862655, 0.008494079286192798, 0.07096124017763647]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.9982153528643806, -3.7696240218956934e-20, 0.060027385705819614, -4.1234681597757823e-20, -4.7594743874752017e-20, -4.2615837507450325e-20, -4.9959827149037494e-20, -4.0905879391625126e-20, -2.3998391549180748e-20, -3.23397281331868e-20]
+  graph_1:edge_weight: [0.015138489772137166]
+  sizing          : [0.04376937518797881, 1.892631394482519e-05, 1.086750142469879e-05, 6.985235411433555e-06, 3.404463950277859e-06, 0.010643396534508378, 0.013701908506990369, 0.08177141381107653, 0.0012503849781139084]
+INFO 2026-07-19 10:54:12,742 sb_arch_opt.sbo : Surrogate infill gen 10 @ 1000 points evaluated (30 real unique, 30 eval)
+INFO 2026-07-19 10:54:25,541 sb_arch_opt.sbo : Surrogate infill gen 20 @ 2000 points evaluated (30 real unique, 30 eval)
+INFO 2026-07-19 10:54:38,044 sb_arch_opt.sbo : Surrogate infill gen 30 @ 3000 points evaluated (30 real unique, 30 eval)
+INFO 2026-07-19 10:54:50,567 sb_arch_opt.sbo : Surrogate infill gen 40 @ 4000 points evaluated (30 real unique, 30 eval)
+INFO 2026-07-19 10:55:02,568 sb_arch_opt.sbo : Surrogate infill gen 50 @ 5000 points evaluated (30 real unique, 30 eval)
+INFO 2026-07-19 10:55:19,058 sb_arch_opt.sbo : Infill: 10 new (eval 30 real unique, 30 eval)
+
+### ADSGKriging OPTIMIZED THETA | output=0, output_name=f0_failure_rate, n_train=40 | composition=additive_interaction
+  branch_weights : [0.0022751756375618995, 0.1643766112044837, 0.20775704322193003, 0.19190389815164763, 0.22705736488798606, 0.20662990689639069]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.6639756936370894, 0.9922532892958631, 0.05031687426159313, -4.2096807844423116e-17, -5.537281452456461e-17, 0.08265282878231843, -4.301232333565852e-17, -3.797943065468891e-17, -3.0105725930933463e-17, -9.017474698342789e-17]
+  graph_1:edge_weight: [0.0001255286632835297]
+  sizing          : [0.0024179534718442998, 0.013719676181315324, 6.710574071390965e-06, 1.3999888461202918e-05, 8.958224767609394e-06, 0.001774661869195264, 0.0011678856716208004, 0.0008724708679735209, 0.00014453649949254928]
+
+### ADSGKriging OPTIMIZED THETA | output=1, output_name=f1_mass, n_train=40 | composition=additive_interaction
+  branch_weights : [0.002841686872212147, 0.26947599611903444, 0.2170712658852178, 0.038091120640187916, 0.23724749330846623, 0.23527243717488153]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.9710231414023014, -5.544982304163722e-18, 0.04088724255289512, -4.676995023245594e-18, -4.867397650171784e-18, -4.649414636822757e-18, -4.3927030329267705e-18, -4.352238022036659e-18, -4.5210506413225415e-18, 0.008416964306944847]
+  graph_1:edge_weight: [0.007734078713179451]
+  sizing          : [0.15146966785434685, 0.00013406323169270153, 0.047330310450884726, 0.00018690578109332122, 0.0009240737926825781, 0.010813004216661903, 0.038830255811523905, 0.10385223308663952, 0.0005505263503260557]
+INFO 2026-07-19 10:57:03,218 sb_arch_opt.sbo : Surrogate infill gen 10 @ 1000 points evaluated (40 real unique, 40 eval)
+INFO 2026-07-19 10:57:15,716 sb_arch_opt.sbo : Surrogate infill gen 20 @ 2000 points evaluated (40 real unique, 40 eval)
+INFO 2026-07-19 10:57:29,958 sb_arch_opt.sbo : Surrogate infill gen 30 @ 3000 points evaluated (40 real unique, 40 eval)
+INFO 2026-07-19 10:57:44,834 sb_arch_opt.sbo : Surrogate infill gen 40 @ 4000 points evaluated (40 real unique, 40 eval)
+INFO 2026-07-19 10:57:59,977 sb_arch_opt.sbo : Surrogate infill gen 50 @ 5000 points evaluated (40 real unique, 40 eval)
+INFO 2026-07-19 10:58:26,555 sb_arch_opt.sbo : Infill: 10 new (eval 40 real unique, 40 eval)
+
+### ADSGKriging OPTIMIZED THETA | output=0, output_name=f0_failure_rate, n_train=50 | composition=additive_interaction
+  branch_weights : [0.004352511037360989, 0.35096851186207584, 0.06109164950582767, 0.21710563467022648, 0.19147422891408342, 0.17500746401042552]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.9989534464146351, 0.9316393599267889, 0.0036473420631981746, -6.252906749364305e-21, 4.044851534481359e-05, 0.2076941026925652, -3.504152624111008e-19, 3.752417608470019e-19, -6.942270654520247e-21, -7.052514239146895e-19]
+  graph_1:edge_weight: [0.00011286826559741222]
+  sizing          : [0.010616439825778224, 0.007806672309685011, 0.00010769271896405924, 1.0147942142831904e-06, 1.0392643678172821e-06, 1.6261174550179343e-05, 1.0065773439633485e-06, 0.0018223724901941794, 1e-06]
+
+### ADSGKriging OPTIMIZED THETA | output=1, output_name=f1_mass, n_train=50 | composition=additive_interaction
+  branch_weights : [0.005040894937238578, 0.1372901522254162, 0.37590128769699577, 0.0756054977230231, 0.06948182850365227, 0.33668033891367416]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.9861254722706084, 0.9981958886515603, 0.00010530346172284058, -1.210290634625985e-19, -6.564860548199109e-19, -6.081088662478842e-19, -6.697279929986745e-19, -5.796843907809161e-19, -7.272110334172158e-19, 0.9880381216399013]
+  graph_1:edge_weight: [0.006618812754320905]
+  sizing          : [0.04649486361269102, 0.05260041452181444, 0.1550683335640627, 0.009675447168394594, 0.023507791725973906, 0.013887989209607918, 0.02516930963454889, 0.028349193404123396, 0.030014991517383918]
+INFO 2026-07-19 11:00:14,815 sb_arch_opt.sbo : Surrogate infill gen 10 @ 1000 points evaluated (50 real unique, 50 eval)
+INFO 2026-07-19 11:00:28,221 sb_arch_opt.sbo : Surrogate infill gen 20 @ 2000 points evaluated (50 real unique, 50 eval)
+INFO 2026-07-19 11:00:44,585 sb_arch_opt.sbo : Surrogate infill gen 30 @ 3000 points evaluated (50 real unique, 50 eval)
+INFO 2026-07-19 11:01:00,798 sb_arch_opt.sbo : Surrogate infill gen 40 @ 4000 points evaluated (50 real unique, 50 eval)
+INFO 2026-07-19 11:01:17,236 sb_arch_opt.sbo : Surrogate infill gen 50 @ 5000 points evaluated (50 real unique, 50 eval)
+INFO 2026-07-19 11:02:12,224 sb_arch_opt.sbo : Infill: 10 new (eval 50 real unique, 50 eval)
+
+### ADSGKriging OPTIMIZED THETA | output=0, output_name=f0_failure_rate, n_train=60 | composition=additive_interaction
+  branch_weights : [0.0043072730706190734, 0.3519317785705734, 0.06292560427714733, 0.21482405320336134, 0.19233930470089106, 0.17367198617740784]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.9937980819873872, 0.9723125168764087, 0.20258192074227827, -4.76700889313023e-17, 0.010874264035246214, 0.19374003017210412, -4.3202762525654385e-17, -5.3920511592803565e-17, -5.609014622601513e-17, -5.556176857428907e-17]
+  graph_1:edge_weight: [0.0001262390755134227]
+  sizing          : [0.004223962104306378, 0.01629148238417626, 0.0013190112308911286, 1.7452016237496245e-06, 0.013801126777424837, 0.00022733321212583364, 1.162440137374787e-06, 0.0003221314989448092, 5.686777978489124e-06]
+
+### ADSGKriging OPTIMIZED THETA | output=1, output_name=f1_mass, n_train=60 | composition=additive_interaction
+  branch_weights : [0.005090344698690643, 0.13726797328354393, 0.3759297962555126, 0.07456938203853719, 0.07281527733940354, 0.33432722638431206]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [1.0, 0.9708607708660585, 0.7722587827393912, -2.014150755073657e-19, -1.3635877384361667e-19, 5.062002791682962e-06, -1.4715689561048845e-19, -8.09240328102288e-20, -1.310045215157289e-19, 0.9106000992161892]
+  graph_1:edge_weight: [0.012062233877973198]
+  sizing          : [0.033312729099498506, 0.06513047377255864, 0.0351271984453491, 0.016233188781047268, 0.013289460994678879, 0.019918752878038952, 0.014488497018876704, 0.037765258704006946, 0.04598037091011584]
+INFO 2026-07-19 11:04:01,413 sb_arch_opt.sbo : Surrogate infill gen 10 @ 1000 points evaluated (60 real unique, 60 eval)
+INFO 2026-07-19 11:04:13,957 sb_arch_opt.sbo : Surrogate infill gen 20 @ 2000 points evaluated (60 real unique, 60 eval)
+INFO 2026-07-19 11:04:26,474 sb_arch_opt.sbo : Surrogate infill gen 30 @ 3000 points evaluated (60 real unique, 60 eval)
+INFO 2026-07-19 11:04:38,518 sb_arch_opt.sbo : Surrogate infill gen 40 @ 4000 points evaluated (60 real unique, 60 eval)
+INFO 2026-07-19 11:04:51,283 sb_arch_opt.sbo : Surrogate infill gen 50 @ 5000 points evaluated (60 real unique, 60 eval)
+INFO 2026-07-19 11:05:12,197 sb_arch_opt.sbo : Infill: 10 new (eval 60 real unique, 60 eval)
+
+### ADSGKriging OPTIMIZED THETA | output=0, output_name=f0_failure_rate, n_train=70 | composition=additive_interaction
+  branch_weights : [0.00344605766970301, 0.32894905437015687, 0.07285681877607901, 0.2510489857660023, 0.2299293657902256, 0.11376971762783308]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.16131517657761105, 0.9348754181266345, 0.25541595921004573, -4.1323455676227474e-17, -4.824074634045514e-17, 3.273183603957368e-18, -4.028458586747277e-17, -2.191682190670209e-17, -2.7596944837003683e-17, -4.056639573729786e-17]
+  graph_1:edge_weight: [0.00011480215176399014]
+  sizing          : [0.0025453131908000693, 0.010886702065062152, 0.0001429382802156976, 3.534444367848984e-05, 0.026805485689178666, 9.607875569692946e-06, 2.361292242784965e-05, 7.908072468425295e-05, 0.0007725861177327858]
+
+### ADSGKriging OPTIMIZED THETA | output=1, output_name=f1_mass, n_train=70 | composition=additive_interaction
+  branch_weights : [0.005012707747900515, 0.13590290775746441, 0.3749671123922008, 0.07082383926323972, 0.0758767089399975, 0.33741672389919697]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.8012245387386571, 0.8981908603268101, 1.574578819433756e-15, 1.925367461258681e-16, -2.509803494901043e-16, -4.567463224273852e-17, 2.356510182548178e-16, -4.56264488179682e-17, -1.048786309267451e-16, 0.10110749401775398]
+  graph_1:edge_weight: [0.007288127211227898]
+  sizing          : [0.024954714831813093, 0.036730872709650426, 0.059397413223138525, 0.01614829614674186, 0.013589230146474528, 0.01954646241354576, 0.019001049370646166, 0.02702112158233813, 0.027632051583324907]
+INFO 2026-07-19 11:07:04,992 sb_arch_opt.sbo : Surrogate infill gen 10 @ 1000 points evaluated (70 real unique, 70 eval)
+INFO 2026-07-19 11:07:18,205 sb_arch_opt.sbo : Surrogate infill gen 20 @ 2000 points evaluated (70 real unique, 70 eval)
+INFO 2026-07-19 11:07:53,333 sb_arch_opt.sbo : Infill: 10 new (eval 70 real unique, 70 eval)
+
+### ADSGKriging OPTIMIZED THETA | output=0, output_name=f0_failure_rate, n_train=80 | composition=additive_interaction
+  branch_weights : [0.005779636989181, 0.297081664933576, 0.03170091212519619, 0.1635409687415234, 0.16397599430400872, 0.33792082290651465]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [1.0000000000000002, 0.46904056780702275, -1.1538724969091968e-17, -2.2485869919029542e-17, 0.0005220952191760848, 0.16491733206461623, -2.463185905737717e-17, -2.3213135409645843e-17, -2.2137251061762916e-17, -1.831808794829135e-17]
+  graph_1:edge_weight: [4.927916337374452e-05]
+  sizing          : [2.013385310147871e-06, 0.004515345107461525, 3.4598920582951784e-05, 0.0014927128354430374, 0.034802828729574645, 0.003736645847041108, 0.0033608497325348483, 0.10907714011249303, 3.380689653696533e-06]
+
+### ADSGKriging OPTIMIZED THETA | output=1, output_name=f1_mass, n_train=80 | composition=additive_interaction
+  branch_weights : [0.005002406563892742, 0.13725994855287865, 0.3747834635463934, 0.07125250237194329, 0.08162370427862585, 0.33007797468626615]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.9998980540698155, 0.8256358067535307, 0.6379037094736867, -2.049240502489875e-18, -2.6277477499931345e-18, -1.7850946560257773e-18, -2.0871359697996663e-18, -2.6858872618820022e-18, -2.001816144002737e-18, 0.8007486625939861]
+  graph_1:edge_weight: [0.009189060326600279]
+  sizing          : [0.017070321433187145, 0.04833643276362635, 0.031273873789806464, 0.01666917896066469, 0.015205405605588512, 0.021572058119674525, 0.02598624855380141, 0.020193274318499727, 0.03744640133506186]
+INFO 2026-07-19 11:09:57,805 sb_arch_opt.sbo : Surrogate infill gen 10 @ 1000 points evaluated (80 real unique, 80 eval)
+INFO 2026-07-19 11:10:14,067 sb_arch_opt.sbo : Surrogate infill gen 20 @ 2000 points evaluated (80 real unique, 80 eval)
+INFO 2026-07-19 11:10:29,785 sb_arch_opt.sbo : Surrogate infill gen 30 @ 3000 points evaluated (80 real unique, 80 eval)
+INFO 2026-07-19 11:10:45,878 sb_arch_opt.sbo : Surrogate infill gen 40 @ 4000 points evaluated (80 real unique, 80 eval)
+INFO 2026-07-19 11:11:01,597 sb_arch_opt.sbo : Surrogate infill gen 50 @ 5000 points evaluated (80 real unique, 80 eval)
+INFO 2026-07-19 11:12:43,730 sb_arch_opt.sbo : Infill: 10 new (eval 80 real unique, 80 eval)
+
+### ADSGKriging OPTIMIZED THETA | output=0, output_name=f0_failure_rate, n_train=90 | composition=additive_interaction
+  branch_weights : [0.0042768567936345495, 0.34546525446184667, 0.07253839768408517, 0.20743558195329456, 0.1905776044053346, 0.1797063047018044]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [1.0, 1.0, 0.838217117665642, -2.0116241851671096e-17, -3.16814773591964e-17, 0.6044731628401164, -1.791068345070217e-17, -3.7439766167027675e-17, -2.9387721994578327e-17, -2.526423208876732e-17]
+  graph_1:edge_weight: [0.0001319074343729133]
+  sizing          : [0.00127743662794002, 0.008485422448134388, 0.0003734728677848454, 0.004761750263167898, 0.037441008037331795, 0.0003674939535115065, 0.000799013832240363, 0.0013047528410524865, 3.23341927059846e-06]
+
+### ADSGKriging OPTIMIZED THETA | output=1, output_name=f1_mass, n_train=90 | composition=additive_interaction
+  branch_weights : [0.005022496189117795, 0.14430732352787334, 0.3728326571750989, 0.0688140622692821, 0.07485840949724545, 0.33416505134138236]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.9909319269505781, 0.9089638168922454, 3.8811953813901315e-16, -1.6697381954889496e-17, -2.5979130344939413e-17, -2.0332710118106493e-17, -1.6662068837376754e-17, -2.9532232171341775e-17, 1.0617814723965696e-18, 0.1802396918507275]
+  graph_1:edge_weight: [0.007984880244407234]
+  sizing          : [0.02462668766500757, 0.04188350944849983, 0.039968609261301, 0.016414608863416582, 0.017101679352823283, 0.014812531227878758, 0.014500251869035927, 0.02033885905167694, 0.03295874425531028]
+INFO 2026-07-19 11:14:52,099 sb_arch_opt.sbo : Surrogate infill gen 10 @ 1000 points evaluated (90 real unique, 90 eval)
+INFO 2026-07-19 11:15:02,214 sb_arch_opt.sbo : Surrogate infill gen 20 @ 2000 points evaluated (90 real unique, 90 eval)
+INFO 2026-07-19 11:15:34,563 sb_arch_opt.sbo : Infill: 10 new (eval 90 real unique, 90 eval)
+
+### ADSGKriging OPTIMIZED THETA | output=0, output_name=f0_failure_rate, n_train=100 | composition=additive_interaction
+  branch_weights : [0.0034061014334469263, 0.3284372921255241, 0.07225429010043552, 0.24938186480877306, 0.2302379135482732, 0.11628253798354722]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.975994708808175, 1.0, 0.9772326477679485, 0.23837648471220027, 0.8430215450147749, 0.16694348487961114, -1.2961098776194518e-16, -3.8118809731976023e-17, -4.872453931915408e-17, -5.670365668488579e-17]
+  graph_1:edge_weight: [0.00022883152923083595]
+  sizing          : [0.001256586044070443, 0.010838439787452235, 0.00047468141084967526, 0.0034465555307442008, 0.07301829117858435, 9.139087583488748e-05, 0.0006926812284088065, 0.0005917537106782774, 0.00043580175124596304]
+
+### ADSGKriging OPTIMIZED THETA | output=1, output_name=f1_mass, n_train=100 | composition=additive_interaction
+  branch_weights : [0.005044330720132943, 0.13949905077732164, 0.37769769213549237, 0.06871536024980557, 0.07248397435943575, 0.3365595917578118]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.9847991663749486, 0.9220212164728832, 0.49487484839662993, -3.643519286230918e-18, -3.1148494928605144e-18, -1.6652984881645317e-18, 1.2983245931804634e-18, -1.819306824699749e-18, -8.266059569796936e-19, 0.43341872045090846]
+  graph_1:edge_weight: [0.009156899089788477]
+  sizing          : [0.02377848520476842, 0.03313072760239375, 0.0853174439503461, 0.008591365271388776, 0.014400117413879025, 0.025956634891577603, 0.011699290980728668, 0.0215194218628573, 0.05778241169039774]
+INFO 2026-07-19 11:17:43,353 sb_arch_opt.sbo : Surrogate infill gen 10 @ 1000 points evaluated (100 real unique, 100 eval)
+INFO 2026-07-19 11:17:56,762 sb_arch_opt.sbo : Surrogate infill gen 20 @ 2000 points evaluated (100 real unique, 100 eval)
+INFO 2026-07-19 11:18:13,517 sb_arch_opt.sbo : Surrogate infill gen 30 @ 3000 points evaluated (100 real unique, 100 eval)
+INFO 2026-07-19 11:18:30,146 sb_arch_opt.sbo : Surrogate infill gen 40 @ 4000 points evaluated (100 real unique, 100 eval)
+INFO 2026-07-19 11:18:47,051 sb_arch_opt.sbo : Surrogate infill gen 50 @ 5000 points evaluated (100 real unique, 100 eval)
+INFO 2026-07-19 11:21:00,161 sb_arch_opt.sbo : Infill: 10 new (eval 100 real unique, 100 eval)
+
+### ADSGKriging OPTIMIZED THETA | output=0, output_name=f0_failure_rate, n_train=110 | composition=additive_interaction
+  branch_weights : [0.004312872899940835, 0.3521235370961044, 0.06594227424971599, 0.20976811737041837, 0.1879618241236128, 0.17989137426020768]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [1.0, 0.9864808276175924, 0.8341929164673251, -5.449880110695808e-17, 0.0480580382946874, 0.3821665093874644, -4.620545109986986e-17, -4.738158423126478e-17, -4.2341933058121024e-17, -4.33639842621366e-17]
+  graph_1:edge_weight: [0.0009169441193272417]
+  sizing          : [0.0029466097703995772, 0.00809934796613707, 0.0007955690162847236, 0.0026852098586667163, 0.05451837913331937, 0.001992277466970034, 0.000419676130856958, 0.0006632030690322093, 1.5389452842713697e-05]
+
+### ADSGKriging OPTIMIZED THETA | output=1, output_name=f1_mass, n_train=110 | composition=additive_interaction
+  branch_weights : [0.005251425318795308, 0.3558699382960438, 0.3522971958443811, 0.00012773023004888505, 0.18386505495485533, 0.10258865535587569]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.9992144042440428, 0.9362249607174, -2.052576038877124e-18, -2.3827000253812195e-18, -2.7308255528668694e-18, -2.3807574121320856e-18, -6.039902609163079e-19, -1.4795217702457271e-18, -2.0359507515527733e-18, 0.29270933325961385]
+  graph_1:edge_weight: [0.012792657659436227]
+  sizing          : [0.03573609703079664, 0.035142764655842595, 0.06971934368729811, 0.011028618864788543, 0.012764865741864114, 0.01989238004179229, 0.016970289679278765, 0.026837681053431598, 0.01908259807463975]
+INFO 2026-07-19 11:23:17,921 sb_arch_opt.sbo : Surrogate infill gen 10 @ 1000 points evaluated (110 real unique, 110 eval)
+INFO 2026-07-19 11:23:37,201 sb_arch_opt.sbo : Surrogate infill gen 20 @ 2000 points evaluated (110 real unique, 110 eval)
+INFO 2026-07-19 11:23:56,061 sb_arch_opt.sbo : Surrogate infill gen 30 @ 3000 points evaluated (110 real unique, 110 eval)
+INFO 2026-07-19 11:24:14,924 sb_arch_opt.sbo : Surrogate infill gen 40 @ 4000 points evaluated (110 real unique, 110 eval)
+INFO 2026-07-19 11:24:33,909 sb_arch_opt.sbo : Surrogate infill gen 50 @ 5000 points evaluated (110 real unique, 110 eval)
+INFO 2026-07-19 11:25:57,745 sb_arch_opt.sbo : Infill: 10 new (eval 110 real unique, 110 eval)
+
+### ADSGKriging OPTIMIZED THETA | output=0, output_name=f0_failure_rate, n_train=120 | composition=additive_interaction
+  branch_weights : [0.0035886107453917187, 0.1558907901092529, 0.16789115244227823, 0.23821262880572985, 0.32503490221147713, 0.10938191568587007]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.9999468726751467, 0.9281131376729916, -1.3118284458715716e-16, -5.423920370590399e-17, 0.30193204113051475, 0.07713258377874432, -4.3969473154069745e-17, 2.168404344971009e-18, -3.9684189611534996e-17, -4.374377339648131e-17]
+  graph_1:edge_weight: [0.000862844119743437]
+  sizing          : [0.0010949263988451622, 0.00026773249861855515, 0.0006568684014893074, 0.0016633034461094446, 0.261554654944371, 0.011923015634121445, 0.00025808631796223503, 1.4513179386411112e-06, 0.0355343703075977]
+
+### ADSGKriging OPTIMIZED THETA | output=1, output_name=f1_mass, n_train=120 | composition=additive_interaction
+  branch_weights : [0.005052980004731858, 0.141730809892513, 0.37093155310359316, 0.0728398225389731, 0.0759115008608236, 0.33353333359936527]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.9118766005377688, 0.8357651695256708, -1.1134966810596812e-16, -1.5541709332242875e-17, 1.823538006373785e-17, -1.2536024008035635e-17, -1.175275776830628e-17, 6.311563490246981e-18, -1.2040045877816132e-17, 0.2053247504404617]
+  graph_1:edge_weight: [0.010200299160397764]
+  sizing          : [0.022641494864461834, 0.02686932949327554, 0.020045669510737905, 0.006504548792980705, 0.01183431943017099, 0.01099402198293212, 0.010134849023994311, 0.018849619991398517, 0.038638301385878704]
+INFO 2026-07-19 11:28:18,575 sb_arch_opt.sbo : Surrogate infill gen 10 @ 1000 points evaluated (120 real unique, 120 eval)
+INFO 2026-07-19 11:28:38,359 sb_arch_opt.sbo : Surrogate infill gen 20 @ 2000 points evaluated (120 real unique, 120 eval)
+INFO 2026-07-19 11:28:57,475 sb_arch_opt.sbo : Surrogate infill gen 30 @ 3000 points evaluated (120 real unique, 120 eval)
+INFO 2026-07-19 11:29:16,885 sb_arch_opt.sbo : Surrogate infill gen 40 @ 4000 points evaluated (120 real unique, 120 eval)
+INFO 2026-07-19 11:29:35,292 sb_arch_opt.sbo : Surrogate infill gen 50 @ 5000 points evaluated (120 real unique, 120 eval)
+INFO 2026-07-19 11:30:48,633 sb_arch_opt.sbo : Infill: 10 new (eval 120 real unique, 120 eval)
+
+### ADSGKriging OPTIMIZED THETA | output=0, output_name=f0_failure_rate, n_train=130 | composition=additive_interaction
+  branch_weights : [0.2123329970270475, 0.280409508412518, 0.002123329970270474, 0.43815935950132895, 0.06485147511856483, 0.002123329970270476]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.8054400904007663, 0.991813113714594, 0.6118810354372386, -1.4387583399391687e-16, 0.3675597967626265, 0.3750163563181485, 1.4494822112637676e-18, 0.0008571768193462806, -2.7874093950076948e-18, -2.533807613456234e-18]
+  graph_1:edge_weight: [0.0011510497286970752]
+  sizing          : [0.07377549549598002, 0.108821493059276, 0.11262948441737906, 0.02301707252192939, 0.15516466771773038, 0.006482611551026754, 0.01173787066207595, 0.006588788266429823, 0.3196040925082285]
+
+### ADSGKriging OPTIMIZED THETA | output=1, output_name=f1_mass, n_train=130 | composition=additive_interaction
+  branch_weights : [0.005225862393708247, 0.35129714223340086, 0.3511870378372616, 0.003813742044782956, 0.1859975824196595, 0.10247863307118683]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.9985797688503502, 0.7606970736592885, -1.1634298663046487e-18, 2.83047645548765e-05, 4.163097632523445e-19, -7.025101180315837e-19, 7.673392266265349e-19, 5.486822805705997e-19, 1.16948433104038e-18, 0.11406894512300013]
+  graph_1:edge_weight: [0.011134999811264227]
+  sizing          : [0.02721083102863298, 0.04387711468134006, 0.04129546706539944, 0.010131408813390985, 0.023271314564670926, 0.03459398016477212, 0.011966225352736991, 0.02693306215086657, 0.022645396495474673]
+INFO 2026-07-19 11:33:10,822 sb_arch_opt.sbo : Surrogate infill gen 10 @ 1000 points evaluated (130 real unique, 130 eval)
+INFO 2026-07-19 11:33:26,829 sb_arch_opt.sbo : Infill: 10 new (eval 130 real unique, 130 eval)
+
+### ADSGKriging OPTIMIZED THETA | output=0, output_name=f0_failure_rate, n_train=140 | composition=additive_interaction
+  branch_weights : [0.22994665215206073, 0.06218503358154041, 0.002299466521520582, 0.631958969645399, 0.07131041157795877, 0.002299466521520594]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.9445021620254402, 1.0, 0.904644435646538, 0.06954951250592858, 0.013576029626496983, 0.32414329213150467, -4.4738796625047945e-17, -4.6819961316441313e-17, -7.574254115755261e-17, -5.621801165871392e-17]
+  graph_1:edge_weight: [0.001646031796813629]
+  sizing          : [0.07903658073902836, 0.10624698368823235, 0.14263271549047893, 0.02451827986324985, 0.19518510770916012, 0.02457894239777772, 0.022151218840654435, 0.008626380504557296, 0.0713835214430772]
+
+### ADSGKriging OPTIMIZED THETA | output=1, output_name=f1_mass, n_train=140 | composition=additive_interaction
+  branch_weights : [0.005038671388457064, 0.1382452318030757, 0.37148841679922, 0.07439579648124468, 0.07556391926967038, 0.3352679642583321]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [1.0000000000000013, 0.6035512420189403, -1.1934897514720433e-15, -3.1972049444098113e-17, -1.514600274538276e-17, -2.9252104200759045e-17, 7.767168105128058e-17, 2.3433006590548893e-17, 4.9441499676580256e-18, 0.5164044355321428]
+  graph_1:edge_weight: [0.006864223800062422]
+  sizing          : [0.028817273593620206, 0.016773134788040826, 0.028248439658316665, 0.005373304314838699, 0.009865938928178905, 0.012013405114201426, 0.005970066152968581, 0.01841546599712249, 0.014359639320047256]
+INFO 2026-07-19 11:36:04,073 sb_arch_opt.sbo : Surrogate infill gen 10 @ 1000 points evaluated (140 real unique, 140 eval)
+INFO 2026-07-19 11:36:25,417 sb_arch_opt.sbo : Surrogate infill gen 20 @ 2000 points evaluated (140 real unique, 140 eval)
+INFO 2026-07-19 11:36:45,463 sb_arch_opt.sbo : Surrogate infill gen 30 @ 3000 points evaluated (140 real unique, 140 eval)
+INFO 2026-07-19 11:37:04,340 sb_arch_opt.sbo : Surrogate infill gen 40 @ 4000 points evaluated (140 real unique, 140 eval)
+INFO 2026-07-19 11:37:24,321 sb_arch_opt.sbo : Surrogate infill gen 50 @ 5000 points evaluated (140 real unique, 140 eval)
+INFO 2026-07-19 11:41:09,739 sb_arch_opt.sbo : Infill: 10 new (eval 140 real unique, 140 eval)
+
+### ADSGKriging OPTIMIZED THETA | output=0, output_name=f0_failure_rate, n_train=150 | composition=additive_interaction
+  branch_weights : [0.1870558558704962, 0.3779377947656291, 0.003907927942337542, 0.39414666293787814, 0.025386983028227242, 0.011564775455431725]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.6885785112731462, 1.0000000000000002, 0.8987518248688942, 0.8639098740219463, 0.35539437476162883, 0.40699134590688335, 0.001258839807494513, -4.676309378746386e-19, -9.363262278392433e-19, -1.1901763956463363e-18]
+  graph_1:edge_weight: [0.0013523794861651436]
+  sizing          : [0.12438975855570858, 0.1640817599235294, 0.22259886381724492, 0.04170214916876139, 0.14589599167559522, 0.0454224855184557, 0.04691330418681129, 0.03485567870673229, 0.03988075111132636]
+
+### ADSGKriging OPTIMIZED THETA | output=1, output_name=f1_mass, n_train=150 | composition=additive_interaction
+  branch_weights : [0.005063531142109678, 0.1406495713573351, 0.3684253852334734, 0.07283691160484952, 0.07400066287266532, 0.33902393778956696]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.9986588324527085, 1.0, 0.6257343226823071, -2.6778738309008146e-18, -3.9815026109653144e-18, -4.427840450225001e-18, -3.692587651395419e-18, -4.351654028312895e-18, -3.789971993756159e-18, 0.37011826933205993]
+  graph_1:edge_weight: [0.007818048643406643]
+  sizing          : [0.02250070188137271, 0.026061547907868302, 0.057818532765846774, 0.00789851153852685, 0.013787622998874103, 0.013102899359409925, 0.008363074469798618, 0.02001720668087988, 0.010747726438988978]
+INFO 2026-07-19 11:43:48,138 sb_arch_opt.sbo : Surrogate infill gen 10 @ 1000 points evaluated (150 real unique, 150 eval)
+INFO 2026-07-19 11:44:12,323 sb_arch_opt.sbo : Surrogate infill gen 20 @ 2000 points evaluated (150 real unique, 150 eval)
+INFO 2026-07-19 11:44:33,576 sb_arch_opt.sbo : Surrogate infill gen 30 @ 3000 points evaluated (150 real unique, 150 eval)
+INFO 2026-07-19 11:44:54,898 sb_arch_opt.sbo : Surrogate infill gen 40 @ 4000 points evaluated (150 real unique, 150 eval)
+INFO 2026-07-19 11:45:14,397 sb_arch_opt.sbo : Surrogate infill gen 50 @ 5000 points evaluated (150 real unique, 150 eval)
+INFO 2026-07-19 11:46:40,134 sb_arch_opt.sbo : Infill: 10 new (eval 150 real unique, 150 eval)
+
+### ADSGKriging OPTIMIZED THETA | output=0, output_name=f0_failure_rate, n_train=160 | composition=additive_interaction
+  branch_weights : [0.18219359405304836, 0.34410394551405205, 0.001953373939920261, 0.43690648954627603, 0.030979654164308694, 0.0038629427823946402]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.4518474029274631, 0.8394967593236826, 0.9999999999999999, 0.4406633710087816, -2.7755575615628914e-17, 0.45188080522382457, -4.682201280463119e-17, -4.87855958523957e-17, -5.1407997379513487e-17, -5.101413742835064e-17]
+  graph_1:edge_weight: [0.0012520098709923244]
+  sizing          : [0.11848395003932236, 0.16584772070076803, 0.23262656712970609, 0.04614725889434438, 0.22495318031745032, 0.05954932848078444, 0.04767453564396332, 0.011627482597578162, 0.06762449893066613]
+
+### ADSGKriging OPTIMIZED THETA | output=1, output_name=f1_mass, n_train=160 | composition=additive_interaction
+  branch_weights : [0.005313002414883304, 0.34946297852077285, 0.3534794257396409, 5.313002414883303e-05, 0.18344692370155777, 0.10824453959899649]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.9999999999999998, 0.8381804264981855, 1.1102230246251565e-16, -1.7599835945675777e-17, -1.2035763317379745e-17, -2.570090574994102e-17, -2.0287917855704372e-17, 1.1696754029783735e-17, -1.7928815581333668e-17, 0.30960045464845587]
+  graph_1:edge_weight: [0.01209932447727079]
+  sizing          : [0.03985181422583337, 0.034459997296090485, 0.060498806639728744, 0.01151973216479587, 0.021811113903125772, 0.022787288795946024, 0.016441215414194823, 0.03004414364037347, 0.043617857490097535]
+INFO 2026-07-19 11:49:36,534 sb_arch_opt.sbo : Surrogate infill gen 10 @ 1000 points evaluated (160 real unique, 160 eval)
+INFO 2026-07-19 11:49:58,831 sb_arch_opt.sbo : Surrogate infill gen 20 @ 2000 points evaluated (160 real unique, 160 eval)
+INFO 2026-07-19 11:50:20,388 sb_arch_opt.sbo : Surrogate infill gen 30 @ 3000 points evaluated (160 real unique, 160 eval)
+INFO 2026-07-19 11:50:40,737 sb_arch_opt.sbo : Surrogate infill gen 40 @ 4000 points evaluated (160 real unique, 160 eval)
+INFO 2026-07-19 11:51:02,172 sb_arch_opt.sbo : Surrogate infill gen 50 @ 5000 points evaluated (160 real unique, 160 eval)
+INFO 2026-07-19 11:55:01,962 sb_arch_opt.sbo : Infill: 10 new (eval 160 real unique, 160 eval)
+
+### ADSGKriging OPTIMIZED THETA | output=0, output_name=f0_failure_rate, n_train=170 | composition=additive_interaction
+  branch_weights : [0.1928225910558972, 0.35071802263820817, 0.0019282259105589726, 0.42692765578190617, 0.02567527870287067, 0.0019282259105589709]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.9999999999999999, 0.988670008470969, 0.8634068935646011, -1.758231224874365e-17, 0.01990063069897021, 0.3059384535781933, -1.2127817849587357e-17, -4.803379218143441e-18, -8.003818976763907e-18, -6.008425095016667e-18]
+  graph_1:edge_weight: [0.0008696251997714999]
+  sizing          : [0.12463628518470082, 0.17113564829415934, 0.211421169171047, 0.040806099476674525, 0.23824888464529054, 0.03029512334527807, 0.04876652254929315, 0.026634322631336603, 0.15722971864720392]
+
+### ADSGKriging OPTIMIZED THETA | output=1, output_name=f1_mass, n_train=170 | composition=additive_interaction
+  branch_weights : [0.15072438609571845, 0.3082501486257007, 0.25675582027009813, 0.277051177916608, 0.0015072438609571846, 0.005711223230917614]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.9646874576590563, 0.6845528235905247, -3.935244355070035e-20, -2.7846540278854684e-20, -4.093499510044497e-20, -1.874654432611187e-20, -3.420555232044566e-20, -3.401981886755334e-20, -1.998689388597119e-20, 0.023372088784648238]
+  graph_1:edge_weight: [0.010434635514444932]
+  sizing          : [0.0590533096234923, 0.0689381589014209, 0.09878036547696531, 0.03467567662542362, 0.04770499927852992, 0.03517607400446614, 0.025706906941033416, 0.029048208975740494, 0.044805490274040786]
+INFO 2026-07-19 11:58:01,570 sb_arch_opt.sbo : Surrogate infill gen 10 @ 1000 points evaluated (170 real unique, 170 eval)
+INFO 2026-07-19 11:58:22,937 sb_arch_opt.sbo : Surrogate infill gen 20 @ 2000 points evaluated (170 real unique, 170 eval)
+INFO 2026-07-19 11:58:44,599 sb_arch_opt.sbo : Surrogate infill gen 30 @ 3000 points evaluated (170 real unique, 170 eval)
+INFO 2026-07-19 11:59:06,344 sb_arch_opt.sbo : Surrogate infill gen 40 @ 4000 points evaluated (170 real unique, 170 eval)
+INFO 2026-07-19 11:59:27,998 sb_arch_opt.sbo : Surrogate infill gen 50 @ 5000 points evaluated (170 real unique, 170 eval)
+INFO 2026-07-19 12:02:04,595 sb_arch_opt.sbo : Infill: 10 new (eval 170 real unique, 170 eval)
+
+### ADSGKriging OPTIMIZED THETA | output=0, output_name=f0_failure_rate, n_train=180 | composition=additive_interaction
+  branch_weights : [0.19672213136952174, 0.30837940779813927, 0.002261318746825539, 0.4407967219987975, 0.04782902253613325, 0.004011397550582761]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.425290979404728, 0.9986969355214952, 0.9983651976862816, 0.8258788976182341, 0.7854276378560862, 0.4392241931487651, 8.667790952176869e-19, 9.392264631191e-20, 1.734723475976807e-18, -2.4827813280119663e-18]
+  graph_1:edge_weight: [0.0012968006950924026]
+  sizing          : [0.08895669370642463, 0.1228115621376317, 0.054454112331504094, 0.03176763031624161, 0.2450032547520863, 0.06823641276977338, 0.027170801650197873, 0.019416991215739605, 0.09070161519431515]
+
+### ADSGKriging OPTIMIZED THETA | output=1, output_name=f1_mass, n_train=180 | composition=additive_interaction
+  branch_weights : [0.0050066572014350556, 0.14039361240555592, 0.36984794891652967, 0.07379061241286147, 0.07513507911087636, 0.33582608995274166]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.7547689255642315, 0.6848885602154207, -1.1079193499578104e-19, -3.184843413720931e-19, -7.526079297610324e-20, -6.035549401247343e-20, 5.296429928171292e-20, -6.268851501214986e-20, -1.8603128403728555e-19, 0.6619060364150334]
+  graph_1:edge_weight: [0.00784687720075441]
+  sizing          : [0.02003388788695543, 0.025655894728215313, 0.024658249874911057, 0.01255702968213249, 0.008405391212524285, 0.01448029107741935, 0.005439804994728179, 0.012632353357564834, 0.13079627322647291]
+INFO 2026-07-19 12:05:05,538 sb_arch_opt.sbo : Surrogate infill gen 10 @ 1000 points evaluated (180 real unique, 180 eval)
+INFO 2026-07-19 12:05:28,116 sb_arch_opt.sbo : Surrogate infill gen 20 @ 2000 points evaluated (180 real unique, 180 eval)
+INFO 2026-07-19 12:05:50,046 sb_arch_opt.sbo : Surrogate infill gen 30 @ 3000 points evaluated (180 real unique, 180 eval)
+INFO 2026-07-19 12:06:11,811 sb_arch_opt.sbo : Surrogate infill gen 40 @ 4000 points evaluated (180 real unique, 180 eval)
+INFO 2026-07-19 12:06:33,625 sb_arch_opt.sbo : Surrogate infill gen 50 @ 5000 points evaluated (180 real unique, 180 eval)
+INFO 2026-07-19 12:08:22,113 sb_arch_opt.sbo : Infill: 10 new (eval 180 real unique, 180 eval)
+
+### ADSGKriging OPTIMIZED THETA | output=0, output_name=f0_failure_rate, n_train=190 | composition=additive_interaction
+  branch_weights : [0.18115308499896418, 0.349675687798748, 0.00269801421068869, 0.42293434064858665, 0.03961179298727605, 0.003927079355736482]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.33579272908288416, 0.9756517834894674, 1.0, 0.979561596255129, 0.798956061724016, 0.7240718086983471, -5.680553335932044e-18, -4.343541029617692e-18, 2.19670608679244e-19, -1.5161844931798048e-18]
+  graph_1:edge_weight: [0.0010306773780679273]
+  sizing          : [0.10015789286650573, 0.09983755007672061, 0.06208530371469127, 0.04167689825475498, 1.0109077557395196, 0.03981510407837666, 0.02775745874822895, 0.019932403360233462, 0.12489772934915841]
+
+### ADSGKriging OPTIMIZED THETA | output=1, output_name=f1_mass, n_train=190 | composition=additive_interaction
+  branch_weights : [0.13113977905865995, 0.3555799583498254, 0.24433507451248065, 0.19260169828459112, 0.0013113977905865992, 0.07503209200385624]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.9989157486239776, 0.997185780764084, 0.8862231875160318, -2.5909351185965073e-18, -3.1774423384081354e-18, -3.622287406232072e-18, -3.378713702721477e-18, -2.9548362813172428e-18, -3.49346070883354e-18, 0.0062895373479618525]
+  graph_1:edge_weight: [0.011522938042069622]
+  sizing          : [0.07080574905264933, 0.06172291399921893, 0.07507658230619098, 0.023173592546408838, 0.03722611271322827, 0.042430758948746164, 0.017984485449764633, 0.03804337159936285, 0.06050109328706588]
+INFO 2026-07-19 12:11:25,116 sb_arch_opt.sbo : Surrogate infill gen 10 @ 1000 points evaluated (190 real unique, 190 eval)
+INFO 2026-07-19 12:11:40,545 sb_arch_opt.sbo : Surrogate infill gen 20 @ 2000 points evaluated (190 real unique, 190 eval)
+INFO 2026-07-19 12:11:55,034 sb_arch_opt.sbo : Surrogate infill gen 30 @ 3000 points evaluated (190 real unique, 190 eval)
+INFO 2026-07-19 12:12:10,402 sb_arch_opt.sbo : Surrogate infill gen 40 @ 4000 points evaluated (190 real unique, 190 eval)
+INFO 2026-07-19 12:13:21,596 sb_arch_opt.sbo : Infill: 10 new (eval 190 real unique, 190 eval)
+
+### ADSGKriging OPTIMIZED THETA | output=0, output_name=f0_failure_rate, n_train=200 | composition=additive_interaction
+  branch_weights : [0.18580533181973055, 0.3807600240357439, 0.0018580533181973046, 0.40672398354009925, 0.02299455396803177, 0.0018580533181973046]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.33194767982037665, 0.9980434643237458, 0.7480290839517675, 0.5001212961496698, 0.41176590652358325, 0.14553833054589246, 9.824682031754197e-05, -5.077589986635886e-18, -5.503550427312178e-18, -5.581894059210571e-18]
+  graph_1:edge_weight: [0.0012430334724097833]
+  sizing          : [0.12486590199300963, 0.1622011620420896, 0.1256452536194192, 0.05063407583952136, 1.0428112367481366, 0.08764332288517707, 0.041173633232861245, 0.014559117408466082, 0.06895152049256717]
+
+### ADSGKriging OPTIMIZED THETA | output=1, output_name=f1_mass, n_train=200 | composition=additive_interaction
+  branch_weights : [0.10950055740024357, 0.365188159971258, 0.16073372087411653, 0.21933539677763497, 0.0022117887060441994, 0.1430303762707028]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [1.0, 0.8967264254241094, -5.01369227106223e-20, 1.0506213379557636e-19, 2.0695141338830773e-05, -3.6504675265571996e-20, -2.3221410073060223e-19, -2.23383173665702e-19, -1.9900484491813422e-19, 0.4368045406236543]
+  graph_1:edge_weight: [0.008493959784216885]
+  sizing          : [0.05355160482615688, 0.06739749710866981, 0.14146427446501034, 0.054036069373541905, 0.06405237664379476, 0.08016704238384284, 0.018393103673978593, 0.04371842351311209, 0.056243282269878625]
+INFO 2026-07-19 12:16:37,560 sb_arch_opt.sbo : Surrogate infill gen 10 @ 1000 points evaluated (200 real unique, 200 eval)
+INFO 2026-07-19 12:16:47,482 sb_arch_opt.sbo : Infill: 10 new (eval 200 real unique, 200 eval)
+
+### ADSGKriging OPTIMIZED THETA | output=0, output_name=f0_failure_rate, n_train=210 | composition=additive_interaction
+  branch_weights : [0.21422791884732875, 0.31123165808430037, 0.0021422791884732877, 0.44093638112114203, 0.029012551926623914, 0.0024492108321315658]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.3725207682455264, 0.9999999999999999, 0.9998835483869416, 0.7376073280962242, 0.34894067078069835, 0.18013104571483965, 0.0009459267191906323, 8.484678866007395e-19, 5.718552244516047e-19, -7.612968489502195e-19]
+  graph_1:edge_weight: [0.0015292120414244338]
+  sizing          : [0.12033346193460154, 0.13690676071125676, 0.08854571731906055, 0.043791885859988215, 0.9404366815264873, 0.07906022539461462, 0.03501878855589124, 0.025392635510629757, 0.14058949782178093]
+
+### ADSGKriging OPTIMIZED THETA | output=1, output_name=f1_mass, n_train=210 | composition=additive_interaction
+  branch_weights : [0.15725385699297031, 0.3541957100418904, 0.2561064959373631, 0.2266016213823361, 0.0015725385699297296, 0.004269777075510408]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.9369071069758014, 0.9999999999999996, 1.756344447475882e-14, -1.859668939694456e-17, -1.7224116691909224e-17, -2.0121345241422165e-17, -2.0985812813436103e-17, -2.389273900254795e-17, -1.8246371577620615e-17, 0.7456026075206459]
+  graph_1:edge_weight: [0.009829980017049903]
+  sizing          : [0.05032611213858982, 0.055194450948351986, 0.058954817049912206, 0.023197894528878615, 0.03921245412538451, 0.03651890811183979, 0.028552065928105615, 0.05058088025933856, 0.04713864652223272]
+INFO 2026-07-19 12:20:11,193 sb_arch_opt.sbo : Surrogate infill gen 10 @ 1000 points evaluated (210 real unique, 210 eval)
+INFO 2026-07-19 12:20:35,464 sb_arch_opt.sbo : Surrogate infill gen 20 @ 2000 points evaluated (210 real unique, 210 eval)
+INFO 2026-07-19 12:20:57,724 sb_arch_opt.sbo : Surrogate infill gen 30 @ 3000 points evaluated (210 real unique, 210 eval)
+INFO 2026-07-19 12:21:20,583 sb_arch_opt.sbo : Surrogate infill gen 40 @ 4000 points evaluated (210 real unique, 210 eval)
+INFO 2026-07-19 12:21:43,130 sb_arch_opt.sbo : Surrogate infill gen 50 @ 5000 points evaluated (210 real unique, 210 eval)
+INFO 2026-07-19 12:27:25,556 sb_arch_opt.sbo : Infill: 10 new (eval 210 real unique, 210 eval)
+
+### ADSGKriging OPTIMIZED THETA | output=0, output_name=f0_failure_rate, n_train=220 | composition=additive_interaction
+  branch_weights : [0.22406086781925688, 0.31260780244895026, 0.002240608678192567, 0.4212237316890344, 0.037626380686373535, 0.002240608678192563]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.7387550968931784, 1.0000000000000004, 0.8952669781213602, 0.5300363105087864, 0.6725226369048777, 0.2749889739238563, -7.110894442019101e-18, -4.260502181190909e-18, -1.0775432294828436e-17, 3.625711851552039e-18]
+  graph_1:edge_weight: [0.0017213403031801592]
+  sizing          : [0.10480183113911712, 0.1352323842548507, 0.07985689477220406, 0.08866751954729916, 0.8459929608673655, 0.17418905507093363, 0.027216472412600987, 0.023717761426709717, 0.022303885815586514]
+
+### ADSGKriging OPTIMIZED THETA | output=1, output_name=f1_mass, n_train=220 | composition=additive_interaction
+  branch_weights : [0.1241645145166606, 0.31538561334444076, 0.19657006385933296, 0.19817433791030095, 0.001241645145166609, 0.16446382522409816]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.6978263567675363, 0.823491979142376, 3.1098974770586014e-13, -4.752189562357402e-18, -2.3275904318123083e-17, -1.3246019190911989e-16, -5.652695139982121e-18, -2.732926482292548e-17, -7.467575688239201e-18, 0.4716098390954318]
+  graph_1:edge_weight: [0.007330423594316717]
+  sizing          : [0.04122184126515887, 0.05721333246100386, 0.08012982668769736, 0.01743679149198171, 0.025889927578579035, 0.05369854774065788, 0.017375860188436912, 0.04593680586722412, 0.02725291193059143]
+INFO 2026-07-19 12:30:57,192 sb_arch_opt.sbo : Surrogate infill gen 10 @ 1000 points evaluated (220 real unique, 220 eval)
+INFO 2026-07-19 12:31:21,699 sb_arch_opt.sbo : Surrogate infill gen 20 @ 2000 points evaluated (220 real unique, 220 eval)
+INFO 2026-07-19 12:31:45,131 sb_arch_opt.sbo : Surrogate infill gen 30 @ 3000 points evaluated (220 real unique, 220 eval)
+INFO 2026-07-19 12:32:08,189 sb_arch_opt.sbo : Surrogate infill gen 40 @ 4000 points evaluated (220 real unique, 220 eval)
+INFO 2026-07-19 12:32:29,578 sb_arch_opt.sbo : Surrogate infill gen 50 @ 5000 points evaluated (220 real unique, 220 eval)
+INFO 2026-07-19 12:34:28,561 sb_arch_opt.sbo : Infill: 10 new (eval 220 real unique, 220 eval)
+
+### ADSGKriging OPTIMIZED THETA | output=0, output_name=f0_failure_rate, n_train=230 | composition=additive_interaction
+  branch_weights : [0.20710791527334305, 0.3236405130519652, 0.002071079152733431, 0.43523850817738935, 0.025427238122843077, 0.006514746221726017]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.4383141086359695, 0.985353412918801, 0.962836798995611, 0.5851403590208706, 0.3186916908939018, 0.2574720397666978, 1.5178830414797062e-18, 0.0002783774558586639, -5.16856237487452e-19, 1.5178830414797062e-18]
+  graph_1:edge_weight: [0.001243837924341008]
+  sizing          : [0.12322204907754188, 0.12199768138823024, 0.10525243270836628, 0.08336260613215445, 0.9333314012681342, 0.5839319539160698, 0.035105474414876055, 0.03658163786092893, 0.07462417923062363]
+
+### ADSGKriging OPTIMIZED THETA | output=1, output_name=f1_mass, n_train=230 | composition=additive_interaction
+  branch_weights : [0.005241387370023716, 0.35291234611474337, 0.3540281228507097, 0.003294477035811608, 0.18067567444294969, 0.10384799218576185]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.990822284258028, 0.7350776160555416, -1.942890293094024e-16, -3.3681218335525715e-17, -3.200413905424383e-17, -3.940399173535262e-17, -3.218948221946053e-17, -3.469472114879648e-17, -2.51054140502623e-17, 0.828220094897374]
+  graph_1:edge_weight: [0.010999183983273726]
+  sizing          : [0.022100740773036396, 0.028728371440755004, 0.06634093445575927, 0.015371179387967851, 0.025576091122593087, 0.01459380922426315, 0.012050564106140391, 0.010904039417412912, 0.018616926703723603]
+INFO 2026-07-19 12:38:05,121 sb_arch_opt.sbo : Surrogate infill gen 10 @ 1000 points evaluated (230 real unique, 230 eval)
+INFO 2026-07-19 12:38:27,281 sb_arch_opt.sbo : Surrogate infill gen 20 @ 2000 points evaluated (230 real unique, 230 eval)
+INFO 2026-07-19 12:38:49,438 sb_arch_opt.sbo : Surrogate infill gen 30 @ 3000 points evaluated (230 real unique, 230 eval)
+INFO 2026-07-19 12:39:11,437 sb_arch_opt.sbo : Surrogate infill gen 40 @ 4000 points evaluated (230 real unique, 230 eval)
+INFO 2026-07-19 12:39:33,543 sb_arch_opt.sbo : Surrogate infill gen 50 @ 5000 points evaluated (230 real unique, 230 eval)
+INFO 2026-07-19 12:41:48,436 sb_arch_opt.sbo : Infill: 10 new (eval 230 real unique, 230 eval)
+
+### ADSGKriging OPTIMIZED THETA | output=0, output_name=f0_failure_rate, n_train=240 | composition=additive_interaction
+  branch_weights : [0.18749655806169818, 0.2855479620337389, 0.0018749655806169795, 0.49101800397246836, 0.03218754477086072, 0.0018749655806169815]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.5005465314063458, 0.9897884068862913, 0.9888495336950186, 0.14579427478399018, 0.35791712859178065, 0.002460815121739806, -5.619520861550487e-19, 0.01175746455223026, -7.644475954855539e-19, -2.1057579630524135e-18]
+  graph_1:edge_weight: [0.0010594669687639473]
+  sizing          : [0.10459689952823732, 0.09755923794180564, 0.08398631932991354, 0.07288351508073211, 0.7935266341878603, 0.4035651928281058, 0.032637008662822334, 0.026410609343701142, 0.0348522235007922]
+
+### ADSGKriging OPTIMIZED THETA | output=1, output_name=f1_mass, n_train=240 | composition=additive_interaction
+  branch_weights : [0.005036332655662078, 0.1338545685008652, 0.37753533074992346, 0.07638520644858757, 0.07337793348068232, 0.3338106281642793]
+  weight_names   : ['graph_0.mg_ld_wloa_adsg_semantic_type', 'graph_1.edge_weight', 'sizing', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_graph_1_edge_weight', 'interaction.graph_0_mg_ld_wloa_adsg_semantic_type_sizing', 'interaction.graph_1_edge_weight_sizing']
+  graph_0:mg_ld_wloa_adsg_semantic_type: [0.9999585238865418, 0.9996985978149396, -9.555582829894587e-21, 8.72255359866376e-21, -4.767591605826991e-22, 7.878173791785401e-21, 1.1907765785979045e-21, -1.2464253670480578e-21, -1.4939988328745982e-20, 0.000134775474933877]
+  graph_1:edge_weight: [0.00468130905406763]
+  sizing          : [0.016242825300063414, 0.019398310167941128, 0.014812453906387309, 0.010420011575738087, 0.004674800722832083, 0.00764051543733329, 0.004540829011589245, 0.01595707172507001, 0.016966775985853947]
+INFO 2026-07-19 12:45:17,690 sb_arch_opt.sbo : Surrogate infill gen 10 @ 1000 points evaluated (240 real unique, 240 eval)
+INFO 2026-07-19 12:45:36,503 sb_arch_opt.sbo : Surrogate infill gen 20 @ 2000 points evaluated (240 real unique, 240 eval)
+INFO 2026-07-19 12:45:54,701 sb_arch_opt.sbo : Surrogate infill gen 30 @ 3000 points evaluated (240 real unique, 240 eval)
+INFO 2026-07-19 12:46:12,277 sb_arch_opt.sbo : Surrogate infill gen 40 @ 4000 points evaluated (240 real unique, 240 eval)
+INFO 2026-07-19 12:46:30,914 sb_arch_opt.sbo : Surrogate infill gen 50 @ 5000 points evaluated (240 real unique, 240 eval)
+INFO 2026-07-19 12:47:55,647 sb_arch_opt.sbo : Infill: 10 new (eval 240 real unique, 240 eval)
